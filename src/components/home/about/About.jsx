@@ -1,9 +1,9 @@
 import React from 'react';
-import aboutPic from '../../../assets/aboutpic.svg';
+import aboutPic from '../../../assets/home/aboutpic.svg';
 
 const About = () => {
   return (
-    <div className='w-full h-[70vh] grid grid-cols-2'>
+    <div className='w-full h-auto p-[3%] grid grid-cols-2'>
         <div className='relative'>
             <h1 className='absolute text-[120px] ml-[50px] font-[900] mt-[15%] text-[#00000026]'>About Us</h1>
             <div className='mt-[30%] mx-[50px]'>
@@ -28,7 +28,7 @@ const About = () => {
             </div>
         </div>
         <div className='w-full h-full'>
-            <img src={aboutPic} alt="About pic" />
+            <img src={aboutPic}  alt="About pic" />
         </div>
     </div>
   )

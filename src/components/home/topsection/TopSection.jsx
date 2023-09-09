@@ -1,5 +1,5 @@
 import React from 'react';
-import bgImg from '../../../assets/TopBg.svg';
+import bgImg from '../../../assets/home/TopBg.svg';
 import Navbar from '../../navbar/Navbar';
 
 const TopSection = () => {
