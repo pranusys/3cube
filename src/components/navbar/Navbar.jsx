@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
 
     const leftOpt = [
-        {name : 'Enterprise Business', link : '/'},
+        {name : 'Enterprise Business', link : '/enterprise-business'},
         {name : 'Join Us', link : '/'},
     ];
 

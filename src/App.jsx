@@ -1,10 +1,11 @@
 import './App.css';
-import Homepage from './components/home/Homepage';
+// import Navbar from './components/navbar/Navbar';
+import RouteLinks from './RouteLinks';
 
 function App() {
   return (
     <div className="App">
-        <Homepage />
+        <RouteLinks />
     </div>
   );
 }
