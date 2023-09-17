@@ -1,8 +1,8 @@
 import React from 'react';
-import enterpriseBg from '../../../assets/enterprise/enterpriseAppBg.svg';
+import retailAppBg from '../../../assets//retail/retailAppBg.svg';
 import upIncreaseIcon from '../../../assets/icons/upincreaseicon.svg';
 
-const EnterpriseApps = () => {
+const RetailApps = () => {
   const features = [
     {
       icon: upIncreaseIcon,
@@ -26,10 +26,10 @@ const EnterpriseApps = () => {
     }
   ];
   return (
-    <div className='h-[90vh] w-full relative overflow-auto'>
-      <img src={enterpriseBg} alt="enterprise background" className='w-[90%] left-[-15%] absolute z-[-1] h-full'/>
+    <div className='h-[90vh] w-full relative overflow-auto bg-[#242537]'>
+      <img src={retailAppBg} alt="enterprise background" className='w-[90%] left-[-15%] absolute h-full'/>
       <h1 className='text-[#0065A8] text-[35px] font-bold absolute top-[30%] p-[18px]'>Apple for Enterprise</h1>
-      <div className='grid grid-cols-2 w-[40%] ml-[60%] mt-[8%]'>
+      <div className='grid grid-cols-2 w-[40%] ml-[60%] mt-[8%] z-[1]'>
           {
             features.map((item, index) => {
               return(
@@ -50,4 +50,4 @@ const EnterpriseApps = () => {
   )
 }
 
-export default EnterpriseApps
+export default RetailApps
