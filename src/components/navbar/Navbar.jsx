@@ -10,7 +10,7 @@ const Navbar = () => {
 
     const rightOpt = [
         {name : 'Retail Business', link : '/retail-business'},
-        {name : 'Login', link : ''},
+        {name : 'Login', link : '/'},
     ];
 
     const windowLocation = window.location.pathname;

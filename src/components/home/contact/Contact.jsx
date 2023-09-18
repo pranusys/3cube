@@ -25,16 +25,16 @@ const Contact = () => {
     ];
 
   return (
-    <div className='w-full h-auto p-[1%] grid grid-cols-2 relative'>
+    <div className='w-full h-auto p-[1%] ssm:flex ssm:flex-col ssm:flex-wrap grid grid-cols-2 relative'>
         <img src={contactBgPic}
             style={{
                 transform: 'translate(-50%, -50%)',
             }} 
             className='absolute left-[50%] top-[70%] z-[-1]' alt="About pic" />
         <div className='relative'>
-            <h1 className='absolute text-[120px] ml-[50px] tracking-[3px] font-bold mt-[15%] text-[#0065A833]'>CONTACT</h1>
+            <h1 className='absolute text-[120px] ml-[50px] ssm:text-[50px] tracking-[3px] font-bold mt-[15%] text-[#0065A833]'>CONTACT</h1>
             <div className='mt-[30%] mx-[50px]'>
-              <div className='font-bold text-[30px] tracking-[1px] mr-[25%]'>
+              <div className='font-bold text-[30px] ssm:text-[25px] tracking-[1px] mr-[25%] ssm:mr-0'>
                   <h3>
                     Got any questions? Don't 
                     hesitate to get in touch.
@@ -49,7 +49,7 @@ const Contact = () => {
                                     <img src={option.icon} alt="Contact icon" className='w-[35px] h-[35px]'/>
                                 </a>
                                 
-                                <p className='text-[#242537] text-[16px] tracking-[1px] ml-[15px]'>
+                                <p className='text-[#242537] text-[16px] ssm:text-[14px] tracking-[1px] ml-[15px]'>
                                     {option.desc}
                                 </p>
                             </div>

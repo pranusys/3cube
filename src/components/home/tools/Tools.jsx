@@ -33,12 +33,12 @@ const Tools = () => {
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
             }} 
-            className='w-full h-[90vh]'>
+            className='w-full h-[90vh] ssm:h-auto'>
                 <div className='flex flex-col w-full h-full justify-center items-center'>
                     {
                         content.map((item, index) => {
                             return (
-                                <div className='flex bg-[#B5D2E6] hover:bg-white border-l-2 border-r-2 border-[#0065A8] p-[8px] justify-center items-center rounded-[20px] w-[500px] my-[15px]'>
+                                <div className='flex ssm:flex-wrap ssm:text-center bg-[#B5D2E6] hover:bg-white border-l-2 border-r-2 border-[#0065A8] p-[8px] justify-center items-center rounded-[20px] w-[500px] ssm:w-[90%] my-[15px]'>
                                     <div className='p-[12px]'>
                                         <img src={item.icon} alt="Tools icon" className='w-[35px] h-[35px]'/>
                                     </div>

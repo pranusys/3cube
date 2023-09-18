@@ -45,7 +45,7 @@ const Stats = () => {
 
 
     return (
-        <div className='w-full h-auto p-[2%] grid grid-cols-2'>
+        <div className='w-full h-auto p-[2%] ssm:flex ssm:flex-wrap grid grid-cols-2'>
             {/* left */}
             <div>
                 <div className='mx-[12%] my-[12%] relative'>
@@ -67,14 +67,14 @@ const Stats = () => {
                         {
                             links.map((link) => (
                                 <a href={link.link}>
-                                    <div className='flex flex-row mr-[25%] justify-between items-center p-[15px] border-t-2 border-black'>
+                                    <div className='flex flex-row ssm:mr-[15%] mr-[25%] ssm:justify-center justify-between items-center p-[15px] border-t-2 border-black'>
                                             <div>
                                                 <h3 className='font-bold text-[18px]'>{link.index}</h3>
                                             </div>
                                             <div className='flex w-[290px]'>
                                                 <img src={link.img} alt="Link icon" className='w-[45px] h-[45px] mr-[10px]'/>
                                                 <div className='flex flex-col'>
-                                                    <h3 className='font-bold text-[18px]'>{link.name}</h3>
+                                                    <h3 className='font-bold text-[18px] ssm:text-[16px]'>{link.name}</h3>
                                                     <p className='text-[14px]'>{link.name}</p>
                                                 </div>
                                             </div>
@@ -90,7 +90,7 @@ const Stats = () => {
             </div>
             { /* right */}
             <div className='p-[2%] flex justify-center items-center '>
-                        <div className='grid grid-cols-2 w-full mx-[12%] p-[12px]'>
+                        <div className='grid grid-cols-2 ssm:flex ssm:flex-wrap w-full mx-[12%] p-[12px]'>
                             {
                                 rightStats.map((stat) => {
                                     return (

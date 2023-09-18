@@ -10,8 +10,8 @@ const Footer = () => {
         { name: 'Privacy Policy', link: '/' },
     ];
   return (
-    <div className='w-full h-[40vh] bg-[#242537] px-[4%] py-[2%]'>
-        <div className='grid w-full h-full grid-cols-4 justify-between items-center'>
+    <div className='w-full h-[40vh] bg-[#242537] px-[4%] py-[2%] ssm:h-auto '>
+        <div className='grid w-full h-full grid-cols-4 ssm:flex ssm:flex-wrap justify-between items-center'>
             {/* logo */}
             <div>
                 <a href='/'>
@@ -23,7 +23,7 @@ const Footer = () => {
                 </p>
             </div>
             {/* Get in Touch */}
-            <div>
+            <div className='ssm:p-[25px]'>
                 <div className='h-[50px]'>
                     <h2 className='text-white text-[24px]'>Get in Touch</h2>
                 </div>
@@ -38,7 +38,7 @@ const Footer = () => {
                 </p>
             </div>
             { /* Learn More */}
-            <div>
+            <div className='ssm:p-[25px]'>
                 <div className='h-[50px]'>
                     <h2 className='text-white text-[24px]'>Learn More</h2>
                 </div>
@@ -56,7 +56,7 @@ const Footer = () => {
                 </ul>
             </div>
             { /* Newsletter */}
-            <div>
+            <div className='ssm:p-[25px]'>
                 <div className='h-[50px]'>
                     <h2 className='text-white text-[24px]'>Our Newsletter</h2>
                 </div>
@@ -67,7 +67,7 @@ const Footer = () => {
                 </p>
                 <div className='flex w-[300px] py-[12px]'>
                     <input type="email" placeholder='Your Email' className='w-[200px] h-[40px] rounded-[5px] px-[10px] py-[5px] outline-none'/>
-                    <button className='w-[100px] h-[40px] bg-[#0065A8] text-white rounded-[5px] px-[10px] py-[5px] outline-none ml-[10px]'>
+                    <button className='h-[40px] bg-[#0065A8] text-white rounded-[5px] px-[10px] py-[5px] outline-none ml-[10px]'>
                         Join
                     </button>
                 </div>

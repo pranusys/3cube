@@ -3,9 +3,9 @@ import aboutPic from '../../../assets/home/aboutpic.svg';
 
 const About = () => {
   return (
-    <div className='w-full h-auto p-[3%] grid grid-cols-2'>
+    <div className='w-full h-auto p-[3%] grid grid-cols-2 ssm:flex ssm:flex-wrap'>
         <div className='relative'>
-            <h1 className='absolute text-[120px] ml-[50px] font-[900] mt-[15%] text-[#00000026]'>About Us</h1>
+            <h1 className='absolute text-[120px] ml-[50px] ssm:text-[75px] font-[900] mt-[15%] text-[#00000026]'>About Us</h1>
             <div className='mt-[30%] mx-[50px]'>
               <div className='font-bold text-[30px] tracking-[1px] mr-[25%]'>
                   <h3>We are Skilled in Providing Superior Service.</h3>
