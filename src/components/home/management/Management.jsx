@@ -31,7 +31,7 @@ const Management = () => {
                     <img src={managementImg} alt='Management img' className='w-[100%] h-[100%]'/>
                 </div>
             </div>
-            <div className='w-full h-full flex flex-wrap justify-center items-center p-[2%]'>
+            <div className='w-full h-full flex flex-wrap text-justify justify-center items-center p-[2%] ssm:mx-[12%]'>
                 <div>
                     <h2 className='text-[#0065A8] text-[25px] tracking-[1px] font-[700]'>Management Team</h2>
                     <h2 className='text-[#242537] font-[700] tracking-[1px] text-[25px] ssm:text-[22px]'>

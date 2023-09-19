@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/cube3logoicon.svg';;
+import logo from '../../assets/cube3logoicon.svg';
 
 const Navbar = () => {
 
@@ -16,7 +16,17 @@ const Navbar = () => {
     const windowLocation = window.location.pathname;
 
   return (
-    <div className='px-[2%] py-[3%]'>
+    <div className='overflow-auto'>
+        <div 
+                style = {{
+                    transform:'translate(50%, 5%)'
+                }}
+                className='w-[50px] h-[50px] absolute top-[5%] right-[50%]'>
+                <a href="/">
+                    <img src={logo} alt='Logo' className='w-full h-full'/>
+                </a>
+        </div>
+    <div className='px-[2%] py-[3%] ssm:hidden'>
         <div className='flex justify-between items-center'>
             <div>
                 <ul className='list-none flex'>
@@ -35,17 +45,7 @@ const Navbar = () => {
                     }
                 </ul>
             </div>
-            <div 
-                style = {{
-                    top:'5%',
-                    right:'50%',
-                    transform:'translate(50%, 10%)'
-                }}
-                className='w-[50px] h-[50px] absolute'>
-                <a href="/">
-                    <img src={logo} alt='Logo' className='w-full h-full'/>
-                </a>
-            </div>
+            
             <div>
             <ul className='list-none flex'>
                     {
@@ -61,6 +61,39 @@ const Navbar = () => {
                             )
                         })
                     }
+                </ul>
+            </div>
+        </div>
+    </div>
+    {/* <nav className='md:invisible'>
+      <div className="navbar px-[2%] py-[5%]">
+        <div className="container nav-container">
+            <input className="checkbox" type="checkbox" name="" id="" />
+            <div className="hamburger-lines">
+              <span className="line line1"></span>
+              <span className="line line2"></span>
+              <span className="line line3"></span>
+            </div>
+            <div className="menu-items">
+                <li><a href="/enterprise-business">Enterprise Business</a></li>
+                <li><a href="/">Join us</a></li>
+                <li><a href="/retail-business">Retail Business</a></li>
+                <li><a href="/">Login</a></li>
+            </div>
+        </div>
+      </div>
+      
+    </nav> */}
+        <div className='md:invisible'>
+            <input type="checkbox" id="active" />
+            <label for="active" className="menu-btn"><span></span></label>
+            <label for="active" className="close"></label>
+            <div className="wrapper">
+                <ul>
+                    <li><a href="/enterprise-business">Enterprise Business</a></li>
+                    <li><a href="/">Join us</a></li>
+                    <li><a href="/retail-business">Retail Business</a></li>
+                    <li><a href="/">Login</a></li>
                 </ul>
             </div>
         </div>

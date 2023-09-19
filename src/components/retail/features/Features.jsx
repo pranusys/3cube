@@ -12,9 +12,9 @@ const Features = () => {
             bgColor: '#242537',
             bgImg : '',
             content : (
-                <div className='w-full h-full flex flex-col justify-center p-[25px] text-left text-white'>
-                    <h2 className='font-bold text-[22px] py-[6px] tracking-[1px] '>Technology Consultation</h2>
-                    <p className='font-bold text-[22px] py-[6px]'>Best-in-class devices to help your teams do their best work</p>
+                <div className='w-full h-full ssm:p-[12px] flex flex-col justify-center p-[25px] text-left text-white'>
+                    <h2 className='font-bold text-[22px] py-[6px] tracking-[1px] ssm:text-[20px] '>Technology Consultation</h2>
+                    <p className='font-bold text-[22px] py-[6px] ssm:text-[20px]'>Best-in-class devices to help your teams do their best work</p>
                     <div className='border-l-2 border-[grey]'>
                         <p className=' text-[14px] py-[6px] text-justify px-[10px]'>
                             Your business needs the best-in-class devices that help boost productivity and provide 
@@ -70,7 +70,7 @@ const Features = () => {
             bgImg : '',
             content : (
                 <div className='w-full h-full text-black flex flex-col justify-center p-[25px] text-left'>
-                    <h2 className='font-bold text-[22px] py-[6px] tracking-[1px] '>Post-Sales Support</h2>
+                    <h2 className='font-bold text-[22px] ssm:text-[20px] py-[6px] tracking-[1px] '>Post-Sales Support</h2>
                     <div className='border-l-2 border-[grey]'>
                         <p className='text-[14px] py-[6px] text-justify px-[10px]'>
                         Your business needs the best-in-class devices that help boost productivity and provide value 
@@ -86,8 +86,8 @@ const Features = () => {
             bgImg: '',
             content : (
                 <div className='w-full text-white h-full flex flex-col justify-center p-[25px] text-left'>
-                    <h2 className='font-bold text-[22px] py-[6px] tracking-[1px] '>Certification</h2>
-                    <p className='font-bold text-[22px] py-[6px]'>Best-in-class devices to help your teams.</p>
+                    <h2 className='font-bold text-[22px] py-[6px] tracking-[1px] ssm:text-[20px]'>Certification</h2>
+                    <p className='font-bold text-[22px] py-[6px] ssm:text-[20px]'>Best-in-class devices to help your teams.</p>
                     <div className='border-l-2 border-[grey]'>
                         <p className='text-[14px] py-[6px] text-justify px-[10px]'>
                             Your business needs the best-in-class devices that help boost productivity and provide 
@@ -119,7 +119,7 @@ const Features = () => {
     ];
     return (
         <div className='w-full h-auto bg-[#242537] overflow-auto'>
-            <div className='grid grid-cols-3'>
+            <div className='grid grid-cols-3 ssm:flex ssm:flex-wrap'>
                 {
                     features.map((feature, index) => {
                         return(

@@ -118,7 +118,7 @@ const Features = () => {
     ];
     return (
         <div className='w-full h-auto'>
-            <div className='grid grid-cols-3 my-[45px]'>
+            <div className='grid grid-cols-3 my-[45px] ssm:flex ssm:flex-wrap'>
                 {
                     features.map((feature, index) => {
                         return(

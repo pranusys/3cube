@@ -32,7 +32,7 @@ const Contact = () => {
             }} 
             className='absolute left-[50%] top-[70%] z-[-1]' alt="About pic" />
         <div className='relative'>
-            <h1 className='absolute text-[120px] ml-[50px] ssm:text-[50px] tracking-[3px] font-bold mt-[15%] text-[#0065A833]'>CONTACT</h1>
+            <h1 className='absolute text-[120px] ml-[50px] ssm:text-[35px] tracking-[3px] font-bold mt-[15%] text-[#0065A833]'>CONTACT</h1>
             <div className='mt-[30%] mx-[50px]'>
               <div className='font-bold text-[30px] ssm:text-[25px] tracking-[1px] mr-[25%] ssm:mr-0'>
                   <h3>
@@ -45,11 +45,13 @@ const Contact = () => {
                     contactOptions.map((option, index) => {
                         return (
                             <div className='flex justify-start items-center my-[35px]'>
-                                <a href='/'>
-                                    <img src={option.icon} alt="Contact icon" className='w-[35px] h-[35px]'/>
-                                </a>
+                                <div className='h-[35px] w-[35px]'>
+                                    <a href={option.link}>
+                                        <img src={option.icon} alt="Contact icon" className='w-full h-full'/>
+                                    </a>
+                                </div>
                                 
-                                <p className='text-[#242537] text-[16px] ssm:text-[14px] tracking-[1px] ml-[15px]'>
+                                <p className='text-[#242537] text-[16px] ssm:text-[14px] tracking-[1px] p-2'>
                                     {option.desc}
                                 </p>
                             </div>
@@ -59,7 +61,7 @@ const Contact = () => {
               </div>
             </div>
         </div>
-        <div className='w-full h-full pl-[25%] py-[25%]'>
+        <div className='w-full h-full px-[25%] ssm:px-[5%]'>
                 <div>
                     <form>
                         <div className='flex'>

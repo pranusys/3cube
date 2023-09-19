@@ -47,15 +47,15 @@ const Stats = () => {
 
 
     return (
-        <div className='w-full h-auto p-[2%] grid grid-cols-2 bg-[#242537] text-white'>
+        <div className='w-full h-auto p-[2%] grid grid-cols-2 ssm:flex ssm:flex-wrap bg-[#242537] text-white'>
             {/* left */}
-            <div className='p-[2%] flex justify-center items-center '>
-                        <div className='grid grid-cols-2 w-full mx-[8%] p-[12px]'>
+            <div className='p-[2%] flex ssm:flex-wrap justify-center items-center text-justify'>
+                        <div className='grid grid-cols-2 ssm:flex ssm:flex-wrap w-full mx-[8%] p-[12px]'>
                             {
                                 leftStats.map((stat) => {
                                     return (
                                         <div className='mx-[8px] my-[10px]'>
-                                                <div className='h-[60px]'>
+                                                <div className='h-[60px] ssm:h-auto ssm:py-[8px]'>
                                                     <h2 className='text-[22px] font-bold'>{stat.header}</h2>
                                                 </div>
                                                 <p className='text-[16px] py-[10px]'>
@@ -87,15 +87,15 @@ const Stats = () => {
                         {
                             links.map((link) => (
                                 <a href={link.link}>
-                                    <div className='flex flex-row mr-[25%] justify-between items-center p-[15px] border-t-2 border-white'>
-                                            <div>
+                                    <div className='flex flex-row mr-[25%] ssm:mr-[5%] justify-between items-center p-[15px] ssm:p-[8px] border-t-2 border-white'>
+                                            <div className='ssm:w-[40px]'>
                                                 <h3 className='font-bold text-[18px]'>{link.index}</h3>
                                             </div>
                                             <div className='flex w-[290px]'>
                                                 <img src={link.img} alt="Link icon" className='w-[45px] h-[45px] mr-[10px]'/>
                                                 <div className='flex flex-col'>
-                                                    <h3 className='font-bold text-[18px]'>{link.name}</h3>
-                                                    <p className='text-[14px]'>{link.desc}</p>
+                                                    <h3 className='font-bold text-[18px] ssm:text-[14px]'>{link.name}</h3>
+                                                    <p className='text-[14px] ssm:text-[12px]'>{link.desc}</p>
                                                 </div>
                                             </div>
                                             <div>
