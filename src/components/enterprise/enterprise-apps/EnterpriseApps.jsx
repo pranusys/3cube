@@ -31,7 +31,7 @@ const EnterpriseApps = () => {
         <img src={enterpriseBg} alt="enterprise background" className='w-[90%] ssm:w-full left-[-15%] absolute z-[-1] h-full'/>
         <h1 className='text-[#0065A8] text-[35px] ssm:text-[28px] font-bold absolute top-[30%] ssm:top-[2%] p-[18px]'>Apple for Enterprise</h1>
       
-      <div className='grid grid-cols-2 ssm:flex ssm:flex-wrap w-[40%] ml-[60%] mt-[8%] ssm:ml-0 ssm:w-full ssm:mt-[20%] ssm:p-[2%] ssm:justify-center ssm:items-center'>
+      <div className='grid grid-cols-2 ssm:flex ld:ml-[15%] ld:mt-[20%] ssm:flex-wrap w-auto ml-[45%] mt-[12%] ssm:ml-0 ssm:w-full ssm:mt-[20%] ssm:p-[2%] ssm:justify-center ssm:items-center'>
           {
             features.map((item, index) => {
               return(
