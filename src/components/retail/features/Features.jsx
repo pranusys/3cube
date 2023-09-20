@@ -119,13 +119,13 @@ const Features = () => {
     ];
     return (
         <div className='w-full h-auto bg-[#242537] overflow-auto'>
-            <div className='grid grid-cols-3 ssm:flex ssm:flex-wrap'>
+            <div className='grid grid-cols-3 ssm:flex ssm:flex-wrap ssm:justify-center ssm:items-center'>
                 {
                     features.map((feature, index) => {
                         return(
                             <div>
                                 <div 
-                                    className='h-[340px] w-[100%]' 
+                                    className='h-[340px] ssm:w-[330px]' 
                                     style={{
                                         backgroundColor: feature.bgColor ?? '',
                                         backgroundImage: `url(${feature.bgImg})` ?? '',

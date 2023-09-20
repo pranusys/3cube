@@ -61,7 +61,7 @@ const Contact = () => {
               </div>
             </div>
         </div>
-        <div className='w-full h-full px-[25%] ssm:px-[5%]'>
+        <div className='w-full h-full px-[25%] ssm:px-[5%] py-[25%] ssm:py-[15%]'>
                 <div>
                     <form>
                         <div className='flex'>
