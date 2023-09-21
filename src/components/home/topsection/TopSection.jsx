@@ -36,7 +36,7 @@ const TopSection = () => {
                     </p>
                   </div>
                   <button className='rounded-[18px] my-[12px] w-[130px] bg-[#0065A8] block text-white mx-auto p-[8px]'>
-                    <a href="/">About us</a>
+                    <a href="/about">About us</a>
                   </button>
               </div>
             </div>

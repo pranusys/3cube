@@ -54,6 +54,7 @@ const Navbar = () => {
                                 <a href={item.link} className={
                                     windowLocation === '/retail-business'
                                     ? 'text-black mx-[15px] font-bold'
+                                    : windowLocation === '/about' ? 'text-black mx-[15px] font-bold'
                                     : 'mx-[15px] font-bold text-white'
                                 }>
                                     <li key={index}>{item.name}</li>

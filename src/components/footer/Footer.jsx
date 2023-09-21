@@ -65,9 +65,9 @@ const Footer = () => {
                     get our news & deals delivered 
                     to you.
                 </p>
-                <div className='flex w-[300px] py-[12px]'>
+                <div className='flex flex-wrap items-center justify-center py-[12px]'>
                     <input type="email" placeholder='Your Email' className='w-[200px] h-[40px] rounded-[5px] px-[10px] py-[5px] outline-none'/>
-                    <button className='h-[40px] bg-[#0065A8] text-white rounded-[5px] px-[10px] py-[5px] outline-none ml-[10px]'>
+                    <button className='h-[40px] bg-[#0065A8] m-[8px] text-white rounded-[5px] px-[10px] py-[5px] outline-none ml-[10px]'>
                         Join
                     </button>
                 </div>

@@ -7,7 +7,8 @@ module.exports = {
     screens: {
       'ssm':{'min':'320px','max':'768px'},
       'md':'769px',
-      'ld':{'max':'1024px'}
+      'ld':{'max':'1024px'},
+      'lsm':{'min':'320px','max':'425px'},
     },
     extend: {
       
