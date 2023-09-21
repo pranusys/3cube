@@ -14,14 +14,24 @@ const Navbar = () => {
     ];
 
     const windowLocation = window.location.pathname;
+    const customStyle = windowLocation === '/about'
+    ? { transform: 'translate(30%, 3%)' }
+    : { transform: 'translate(50%, 5%)' };
 
   return (
-    <div className='overflow-auto'>
+    <div className={
+        windowLocation === '/about' 
+        ? 'w-[70%] overflow-auto'
+         : 'overflow-auto'
+        }>
         <div 
-                style = {{
-                    transform:'translate(50%, 5%)'
-                }}
-                className='w-[50px] h-[50px] absolute top-[5%] right-[50%]'>
+                style ={customStyle}
+                className={
+                    windowLocation === '/about'
+                    ? 'w-[50px] h-[50px] absolute top-[3%] right-[65%] ssm:top-[5%] ssm:right-[50%]'
+                    : 'w-[50px] h-[50px] absolute top-[5%] right-[50%]'
+
+                }>
                 <a href="/">
                     <img src={logo} alt='Logo' className='w-full h-full'/>
                 </a>
