@@ -33,11 +33,11 @@ const Management = () => {
             </div>
             <div className='w-full h-full flex flex-wrap text-justify justify-center items-center p-[2%] ssm:mx-[12%]'>
                 <div>
-                    <h2 className='text-[#0065A8] text-[35px] ssm:text-[22px] tracking-[1px] font-[700]'>Management Team</h2>
-                    <h2 className='text-[#242537] font-[700] tracking-[1px] text-[35px] ssm:text-[22px]'>
+                    <h2 className='text-[#0065A8] text-[35px] ssm:text-[28px] tracking-[1px] font-[700]'>Management Team</h2>
+                    <h2 className='text-[#242537] font-[700] tracking-[1px] text-[35px] ssm:text-[28px]'>
                         Our comprehensive range of services for corporate employees includes asset leasing.
                     </h2>
-                    <p className='text-[#242537] text-[16px] ssm:text-[14px] py-[12px] tracking-[1px] pr-[30%]'>
+                    <p className='text-[#242537] text-[16px] py-[12px] tracking-[1px] pr-[30%]'>
                         We provide you with a test account that can be set up in 
                         seconds. Our main focus is getting responses to you as 
                         soon as we can.
@@ -49,7 +49,7 @@ const Management = () => {
                                     <div className='flex ssm:w-full flex-row items-center my-[5px]'>
                                         {/* <div className='w-[20px] h-[20px] rounded-[50%] bg-[#0065A8]'></div> */}
                                         <img src={rightArrowIcon} alt="Right arrow icon" className='w-[30px] h-[30px] rounded-[50%] mr-[10px]'/>
-                                        <p className='text-[#242537] text-[16px] ssm:text-[14px] py-[12px] tracking-[1px] pr-[30%]'>
+                                        <p className='text-[#242537] text-[16px] py-[12px] tracking-[1px] pr-[30%]'>
                                             {point.desc}
                                         </p>
                                     </div>

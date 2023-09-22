@@ -11,11 +11,11 @@ const TopSection = () => {
             <img src={bgImgPic} alt="bgImgPic" className='absolute right-0 top-0 z-[-1] h-[600px]' />
             <div className='w-[40%] mt-[10%] ml-[10%] ssm:w-[95%] relative ssm:mt-[30vh] ssm:bg-[#c8cacb] ssm:rounded-[15px] ssm:p-[12px] ssm:mx-auto'>
                 <div className='w-[90px] h-[90px] z-[-1] absolute rounded-[50%] bg-[#99c4e1]'></div>
-                <h1 className='text-[50px] ssm:text-[28px] font-[900]'>
+                <h2 className='text-[50px] ssm:text-[28px] font-[900]'>
                   <b className='text-black'>About Our</b> 
                   <b className='text-[#0065A8]'>&nbsp;Business</b>
-                </h1>
-                <p className='text-[18px] py-[12px] text-black ssm:text-[16px]'>
+                </h2>
+                <p className='text-[16px] ssm:text-[14px] py-[12px] text-black'>
                     Nobody understands loans and financial needs better than us.
                     With 3cube Technologies, you can always have the emergency
                     financial support you need.

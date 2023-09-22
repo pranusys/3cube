@@ -33,9 +33,9 @@ const Contact = () => {
         </div>
         <div>
             <div className='mt-[30%] mx-[50px]'>
-              <div className='relative mr-[25%] ssm:mr-0  tracking-[1px]'>
-                  <h2 className='absolute text-[30px] font-bold top-[-40%] text-[#b7d8f7c4]'>Request for Free Consultation</h2>
-                  <h3 className='font-bold text-[25px] text-black'>
+              <div className='relative mr-[25%] ssm:mr-0 tracking-[1px]'>
+                  <h2 className='absolute text-[38px] ssm:text-[32px] font-bold top-[-40%] text-[#b7d8f7c4]'>Request for Free Consultation</h2>
+                  <h3 className='font-bold text-[35px] ssm:text-[28px] relative z-[1] text-black'>
                     Help your Business to get on a New Stage!
                   </h3>
               </div>
@@ -49,7 +49,7 @@ const Contact = () => {
                                         <img src={option.icon} alt="icon" className='w-full h-full'/>
                                     </a>
                                 </div>
-                                <p className='text-black text-[16px] ssm:text-[12px] tracking-[1px] ml-[15px] mr-[20%] ssm:mr-0'>
+                                <p className='text-black text-[16px] tracking-[1px] ml-[15px] mr-[20%] ssm:mr-0'>
                                     {option.desc}
                                 </p>
                             </div>

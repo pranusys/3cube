@@ -35,8 +35,8 @@ const AboutCompany = () => {
             <div className='w-full h-full flex relative z-[1] flex-wrap text-justify ssm:my-[45px] justify-center items-center p-[2%] text-white ssm:mx-[12%]'>
                 <div className='relative'>
                     <div className='w-[90px] h-[90px] z-[-1] top-[-5%] absolute rounded-[50%] bg-[#99c4e1]'></div>
-                    <h2 className='text-white text-[38px] ssm:text-[28px] tracking-[1px] font-bold'>About Our Company</h2>
-                    <p className='text-[16px] py-[12px] tracking-[1px] pr-[30%] ssm:pr-0'>
+                    <h2 className='text-white text-[35px] ssm:text-[28px] tracking-[1px] font-bold'>About Our Company</h2>
+                    <p className='text-[16px] ssm:text-[14px] py-[12px] tracking-[1px] pr-[30%] ssm:pr-0'>
                         Nobody understands loans and financial needs better than us,
                         With 3cube Technologies, you can always have the emergency
                         financial support you need. We ensure quick disbursals and easy 
@@ -50,7 +50,7 @@ const AboutCompany = () => {
                                     <div className='flex ssm:w-full flex-row items-center my-[5px]'>
                                         {/* <div className='w-[20px] h-[20px] rounded-[50%] bg-[#0065A8]'></div> */}
                                         <img src={rightArrowIcon} alt="Right arrow icon" className='w-[30px] h-[30px] rounded-[50%] mr-[10px]'/>
-                                        <p className=' text-[16px] py-[12px] tracking-[1px] pr-[30%] ssm:mr-0'>
+                                        <p className='text-[16px] ssm:text-[14px] py-[12px] tracking-[1px] pr-[30%] ssm:mr-0'>
                                             {point.desc}
                                         </p>
                                     </div>

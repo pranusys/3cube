@@ -33,7 +33,7 @@ const Contact = () => {
         </div>
         <div>
             <div className='mt-[30%] mx-[50px] ssm:mt-[0]'>
-              <div className='font-bold text-[30px] ssm:text-[22px] tracking-[1px] mr-[25%] ssm:mr-0'>
+              <div className='font-bold text-[35px] ssm:text-[28px] tracking-[1px] mr-[25%] ssm:mr-0'>
                   <h3>
                     Got any questions? Don't 
                     hesitate to get in touch.
@@ -48,7 +48,7 @@ const Contact = () => {
                                     <img src={option.icon} alt="icon"/>
                                 </a>
                                 
-                                <p className='text-[#242537] text-[16px] ssm:text-[14px] tracking-[1px] ml-[15px]'>
+                                <p className='text-[#242537] text-[16px] tracking-[1px] ml-[15px]'>
                                     {option.desc}
                                 </p>
                             </div>

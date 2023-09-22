@@ -22,7 +22,7 @@ const TopSection = () => {
                       <div className="inline-block ssm:none w-1/2 ssm:w-0 text-right text-[#242537]">Three Cube Technologies&nbsp;</div>
                       <div className="inline-block ssm:none w-1/2 ssm:w-0 text-left text-white ssm:text-[#242537]">&nbsp;Private Limited (TCTPL)</div>
                   </div>
-                  <div className="ssm:w-full text-center text-[18px] tracking-[2px] font-[900] py-[6px] ssm:flex-col ssm:justify-start ssm:items-center ssm:hidden">
+                  <div className="ssm:w-full text-center text-[16px] tracking-[2px] font-[900] py-[6px] ssm:flex-col ssm:justify-start ssm:items-center ssm:hidden">
                       <div className="inline-block ssm:none w-1/2 ssm:w-0 text-right text-[#242537]">Through its innovative & business friendly&nbsp;</div>
                       <div className="inline-block ssm:none w-1/2 ssm:w-0 text-left text-white ssm:text-[#242537]">&nbsp;financial tools aim to help businesses</div>
                   </div>
@@ -31,7 +31,7 @@ const TopSection = () => {
                     <p className='text-[22px] py-[6px]'>
                       Three Cube Technologies Private Limited (TCTPL)
                     </p>
-                    <p className='text-[14px] py-[6px]'>
+                    <p className='text-[16px] py-[6px]'>
                       Through its innovative & business friendly financial tools aim to help businesses.
                     </p>
                   </div>

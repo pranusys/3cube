@@ -96,8 +96,8 @@ const Stats = () => {
                                     return (
                                         <div 
                                             className='mx-[8px]'>
-                                            <h2 className='text-[45px] ssm:text-[22px] font-bold'>{stat.header}</h2>
-                                            <p className='text-[16px] ssm:text-[14px] py-[10px]'>
+                                            <h2 className='text-[45px] ssm:text-[28px] font-bold'>{stat.header}</h2>
+                                            <p className='text-[16px] py-[10px]'>
                                                 {stat.desc}
                                             </p>
                                         </div>

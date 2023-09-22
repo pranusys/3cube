@@ -39,13 +39,13 @@ const EnterpriseApps = () => {
                       style={{
                         transform: 'translateY(-50%)'
                       }}
-                      className='bg-white border-l-2 border-r-2 relative top-[50%] mx-[12px] my-[25px] border-[#0065A8] p-[8px] justify-center items-center text-center flex flex-col ssm:my-[12px] rounded-[20px] h-[210px] w-[250px]'>
+                      className='bg-white border-l-2 border-r-2 relative top-[50%] mx-[12px] my-[25px] border-[#0065A8] p-[8px] justify-center items-center text-center flex flex-col ssm:my-[12px] rounded-[20px] h-[210px] w-[270px]'>
                                     <div className='p-[12px]'>
                                         <img src={item.icon} alt="Tools icon" className='w-[35px] h-[35px]'/>
                                     </div>
                                     <div className='flex flex-col ml-[12px]'>
-                                        <h3 className='text-[#0065A8] font-bold tracking-[1px] text-[20px] ssm:text-[18px]'>{item.title}</h3>
-                                        <p className='text-[16px] py-[8px] ssm:text-[14px]'>{item.content}</p>
+                                        <h3 className='text-[#0065A8] font-bold tracking-[1px] text-[22px]'>{item.title}</h3>
+                                        <p className='text-[16px] py-[8px]'>{item.content}</p>
                                     </div>
                 </div>
               );

@@ -17,11 +17,11 @@ const TopSection = () => {
             <Navbar />
             {/* <img src={bgImgPic} alt="bgImgPic" className='w-[50%] absolute bottom-0 right-0 top-0' /> */}
             <div className='w-[40%] mt-[12%] ml-[2%] ssm:w-[95%] ssm:mt-[30vh] ssm:bg-[#00385d] ssm:rounded-[15px] ssm:p-[12px] ssm:mx-auto'>
-                <h1 className='text-[50px] ssm:text-[28px] font-[900]'>
+                <h2 className='text-[45px] ssm:text-[28px] font-[900]'>
                   <b className='text-white'>Retail</b> 
                   <b className='text-[#0065A8]'>&nbsp;Business</b>
-                </h1>
-                <p className='text-[18px] py-[12px] text-white ssm:text-[16px]'>
+                </h2>
+                <p className='text-[16px] py-[12px] text-white ssm:text-[16px]'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna
                 </p>

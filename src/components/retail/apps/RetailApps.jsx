@@ -37,12 +37,12 @@ const RetailApps = () => {
                     style={{
                       transform : 'translateY(-50%)'
                     }} 
-                    className='bg-white border-l-2 border-r-2 relative top-1/2 mx-[12px] border-[#0065A8] p-[8px] justify-center items-center text-center flex flex-col rounded-[20px] h-[210px] ssm:h-auto ssm:w-3/4 w-[250px] my-[15px]'>
+                    className='bg-white border-l-2 border-r-2 relative top-1/2 mx-[12px] border-[#0065A8] p-[8px] justify-center items-center text-center flex flex-col rounded-[20px] h-[210px] ssm:h-auto ssm:w-3/4 w-[270px] my-[15px]'>
                                     <div className='p-[12px]'>
                                         <img src={item.icon} alt="Tools icon" className='w-[35px] h-[35px]'/>
                                     </div>
                                     <div className='flex flex-col ml-[12px]'>
-                                        <h3 className='text-[#0065A8] font-bold tracking-[1px] text-[20px]'>{item.title}</h3>
+                                        <p className='text-[#0065A8] font-bold tracking-[1px] text-[22px]'>{item.title}</p>
                                         <p className='text-[16px] py-[8px]'>{item.content}</p>
                                     </div>
                 </div>
