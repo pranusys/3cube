@@ -52,7 +52,7 @@ const Stats = () => {
                     <img 
                         src={quotationPic} alt="Stats pic" 
                         className='w-[80px] h-[65px] absolute z-[-1] top-[35%]'/>
-                    <h2 className='text-[35px] ssm:text-[22px] tracking-[1px] font-bold text-black'>It's all about speed</h2>
+                    <h2 className='text-[35px] ssm:text-[28px] tracking-[1px] font-bold text-black'>It's all about speed</h2>
                     <p className='py-[12px] text-[16px] ssm:text-[14px] text-black text-justify'>
                         We provide you with a test account that can be set up in 
                         seconds. Our main focus is getting responses to you as 
