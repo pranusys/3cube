@@ -32,9 +32,9 @@ const Contact = () => {
             }} 
             className='absolute left-[50%] top-[70%] z-[-1]' alt="About pic" />
         <div className='relative'>
-            <h1 className='absolute text-[120px] ml-[50px] ssm:text-[35px] tracking-[3px] font-bold mt-[15%] text-[#0065A833]'>CONTACT</h1>
+            <h1 className='absolute text-[120px] ml-[50px] ssm:text-[45px] tracking-[3px] font-bold mt-[15%] text-[#0065A833]'>CONTACT</h1>
             <div className='mt-[30%] mx-[50px]'>
-              <div className='font-bold text-[30px] ssm:text-[25px] tracking-[1px] mr-[25%] ssm:mr-0'>
+              <div className='font-bold text-[35px] ssm:text-[22px] tracking-[1px] mr-[25%] ssm:mr-0'>
                   <h3>
                     Got any questions? Don't 
                     hesitate to get in touch.

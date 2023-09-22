@@ -43,8 +43,8 @@ const Tools = () => {
                                         <img src={item.icon} alt="Tools icon" className='w-[35px] h-[35px]'/>
                                     </div>
                                     <div className='flex flex-col ml-[12px]'>
-                                        <h3 className='text-[#0065A8] font-bold tracking-[1px] text-[24px]'>{item.head}</h3>
-                                        <p className='text-[18px] py-[8px]'>{item.desc}</p>
+                                        <h3 className='text-[#0065A8] font-bold tracking-[1px] text-[25px]'>{item.head}</h3>
+                                        <p className='text-[16px] ssm:text-[14px] py-[8px]'>{item.desc}</p>
                                     </div>
                                 </div>
                             );

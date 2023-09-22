@@ -52,13 +52,13 @@ const Stats = () => {
                     <img 
                         src={quotationPic} alt="Stats pic" 
                         className='w-[80px] h-[65px] absolute z-[-1] top-[35%]'/>
-                    <h2 className='text-[28px] tracking-[1px] font-bold text-black'>It's all about speed</h2>
-                    <p className='py-[12px] text-[18px] text-black text-justify'>
+                    <h2 className='text-[35px] ssm:text-[22px] tracking-[1px] font-bold text-black'>It's all about speed</h2>
+                    <p className='py-[12px] text-[16px] ssm:text-[14px] text-black text-justify'>
                         We provide you with a test account that can be set up in 
                         seconds. Our main focus is getting responses to you as 
                         soon as we can.
                     </p>
-                    <p className='py-[35px] text-[18px] text-black text-justify'>
+                    <p className='py-[35px] text-[16px] ssm:text-[14px] text-black text-justify'>
                         We provide you with a test account that can be set up in 
                         seconds. Our main focus is getting responses to you as 
                         soon as we can.
@@ -69,13 +69,13 @@ const Stats = () => {
                                 <a href={link.link}>
                                     <div className='flex flex-row ssm:mr-[15%] mr-[25%] ssm:justify-center justify-between items-center p-[15px] border-t-2 border-black'>
                                             <div>
-                                                <h3 className='font-bold text-[18px]'>{link.index}</h3>
+                                                <h3 className='font-bold text-[16px]'>{link.index}</h3>
                                             </div>
                                             <div className='flex w-[290px]'>
                                                 <img src={link.img} alt="Link icon" className='w-[45px] h-[45px] mr-[10px]'/>
                                                 <div className='flex flex-col'>
-                                                    <h3 className='font-bold text-[18px] ssm:text-[16px]'>{link.name}</h3>
-                                                    <p className='text-[14px]'>{link.name}</p>
+                                                    <p className='font-bold text-[18px] ssm:text-[16px]'>{link.name}</p>
+                                                    <p className='text-[16px] ssm:text-[14px]'>{link.name}</p>
                                                 </div>
                                             </div>
                                             <div>
@@ -96,8 +96,8 @@ const Stats = () => {
                                     return (
                                         <div 
                                             className='mx-[8px]'>
-                                            <h2 className='text-[45px] font-bold'>{stat.header}</h2>
-                                            <p className='text-[18px] py-[10px]'>
+                                            <h2 className='text-[45px] ssm:text-[22px] font-bold'>{stat.header}</h2>
+                                            <p className='text-[16px] ssm:text-[14px] py-[10px]'>
                                                 {stat.desc}
                                             </p>
                                         </div>
