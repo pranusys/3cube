@@ -58,7 +58,7 @@ const Stats = () => {
                                                 <div className='h-[60px] ssm:h-auto ssm:py-[10px]'>
                                                     <h2 className='text-[22px] font-bold'>{stat.header}</h2>
                                                 </div>
-                                                <p className='text-[16px] py-[10px]'>
+                                                <p className='text-[14px] py-[10px]'>
                                                     {stat.desc}
                                                 </p>
                                         </div>
@@ -83,7 +83,7 @@ const Stats = () => {
                     </p>
                     
                     <div className='links flex flex-col w-full mt-[18px]'>
-                        <p className='text-[#0065A8] text-[16px]'>Latest Addons</p>
+                        <p className='text-[#0065A8] text-[14px]'>Latest Addons</p>
                         {
                             links.map((link) => (
                                 <a href={link.link}>
@@ -94,7 +94,7 @@ const Stats = () => {
                                             <div className='flex w-[290px]'>
                                                 <img src={link.img} alt="Link icon" className='w-[45px] h-[45px] mr-[10px]'/>
                                                 <div className='flex flex-col'>
-                                                    <h3 className='font-bold text-[18px] ssm:text-[16px]'>{link.name}</h3>
+                                                    <h3 className='font-bold text-[18px] ssm:text-[14px]'>{link.name}</h3>
                                                     <p className='text-[14px] ssm:text-[12px]'>{link.desc}</p>
                                                 </div>
                                             </div>

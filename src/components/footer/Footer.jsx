@@ -10,7 +10,7 @@ const Footer = () => {
         { name: 'Privacy Policy', link: '/' },
     ];
   return (
-    <div className='w-full h-[40vh] bg-[#242537] border-white border-t-2 px-[4%] py-[2%] ssm:h-auto '>
+    <div className='w-full h-[50vh] bg-[#242537] border-white border-t-2 px-[6%] py-[4%] ssm:h-auto '>
         <div className='grid w-full h-full grid-cols-4 ssm:flex ssm:flex-wrap justify-between items-start'>
             {/* logo */}
             <div>
@@ -28,7 +28,11 @@ const Footer = () => {
                     <h2 className='text-white text-[24px]'>Get in Touch</h2>
                 </div>
                 <p className='text-white text-[14px] px-[20px] py-[8px] tracking-[2px]'>
-                    3cube, 123 Main Street, Anytown, CA 12345 USA
+                    THREE CUBE TECHNOLOGIES PVT LTD,
+                    Ground Floor, Sivanandam Apartments,
+                    # 1 B&C,  East Park Road,
+                    Pulla Avenue, Shenoy Nagar,
+                    Chennai - 600023
                 </p>
                 <p className='text-white text-[14px] px-[20px] py-[8px] tracking-[2px]'>
                         +62 478-2240-190
@@ -58,19 +62,9 @@ const Footer = () => {
             { /* Newsletter */}
             <div className='ssm:p-[25px]'>
                 <div className='h-[50px]'>
-                    <h2 className='text-white text-[24px]'>Our Newsletter</h2>
+                    <h2 className='text-white text-[24px]'>Our Blog</h2>
                 </div>
-                <p className='text-white text-[14px] px-[20px] py-[8px] tracking-[2px]'>
-                    Subscribe to our newsletter to 
-                    get our news & deals delivered 
-                    to you.
-                </p>
-                <div className='flex flex-wrap items-center justify-center py-[12px]'>
-                    <input type="email" placeholder='Your Email' className='w-[200px] h-[40px] rounded-[5px] px-[10px] py-[5px] outline-none'/>
-                    <button className='h-[40px] bg-[#0065A8] m-[8px] text-white rounded-[5px] px-[10px] py-[5px] outline-none ml-[10px]'>
-                        Join
-                    </button>
-                </div>
+                
             </div>
         </div>
     </div>

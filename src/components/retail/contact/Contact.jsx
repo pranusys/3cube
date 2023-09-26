@@ -26,7 +26,7 @@ const Contact = () => {
 
   return (
     <div className='w-full h-auto p-[1%] grid grid-cols-2 ssm:flex ssm:flex-wrap relative bg-[#242537] overflow-auto'>
-        <div className='w-full h-full p-[15%] ssm:p-[2%]'>
+        <div className='w-full h-full p-[15%] ssm:p-[2%] flex justify-center items-center'>
               <div>
                 <img src={contactPic} alt="contact pic" />
               </div>
@@ -48,7 +48,7 @@ const Contact = () => {
                                     <img src={option.icon} alt="icon" className='w-[35px] h-[35px]'/>
                                 </a>
                                 
-                                <p className='text-white text-[16px] ssm:text-[14px] tracking-[1px] ml-[15px]'>
+                                <p className='text-white text-[14px] ssm:text-[14px] tracking-[1px] ml-[15px]'>
                                     {option.desc}
                                 </p>
                             </div>

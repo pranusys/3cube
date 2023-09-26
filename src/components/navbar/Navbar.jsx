@@ -76,25 +76,6 @@ const Navbar = () => {
             </div>
         </div>
     </div>
-    {/* <nav className='md:invisible'>
-      <div className="navbar px-[2%] py-[5%]">
-        <div className="container nav-container">
-            <input className="checkbox" type="checkbox" name="" id="" />
-            <div className="hamburger-lines">
-              <span className="line line1"></span>
-              <span className="line line2"></span>
-              <span className="line line3"></span>
-            </div>
-            <div className="menu-items">
-                <li><a href="/enterprise-business">Enterprise Business</a></li>
-                <li><a href="/">Join us</a></li>
-                <li><a href="/retail-business">Retail Business</a></li>
-                <li><a href="/">Login</a></li>
-            </div>
-        </div>
-      </div>
-      
-    </nav> */}
         <div className='md:invisible'>
             <input type="checkbox" id="active" />
             <label for="active" className="menu-btn"><span></span></label>

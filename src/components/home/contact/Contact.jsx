@@ -51,7 +51,7 @@ const Contact = () => {
                                     </a>
                                 </div>
                                 
-                                <p className='text-[#242537] text-[16px] tracking-[1px] p-2'>
+                                <p className='text-[#242537] text-[14px] tracking-[1px] p-2'>
                                     {option.desc}
                                 </p>
                             </div>

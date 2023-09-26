@@ -18,15 +18,15 @@ const TopSection = () => {
                   <b className='text-[#242537]'>Enterprise</b> 
                   <b className='text-[#0065A8]'>&nbsp;Business</b>
                 </h2>
-                <p className='text-[16px] py-[12px] ssm:text-[16px]'>
+                <p className='text-[14px] py-[12px] ssm:text-[14px]'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna
                 </p>
                 <div className='flex ssm:flex-wrap'>
-                    <button className='rounded-[18px] w-[130px] text-[16px] ssm:ml-[15px] mt-[7%] bg-[#0065A8] text-white p-[8px]'>
+                    <button className='rounded-[18px] w-[130px] text-[14px] ssm:ml-[15px] mt-[7%] bg-[#0065A8] text-white p-[8px]'>
                         <a href="/">About us</a>
                     </button>
-                    <button className='bg-transparent text-[16px] ml-[15px] mt-[7%] p-[8px] text-black flex'>
+                    <button className='bg-transparent text-[14px] ml-[15px] mt-[7%] p-[8px] text-black flex'>
                         <a href="/" className='flex'>
                             <img src={playBtn} alt="playBtn" className='w-[25px] h-[25px]'/>
                             <p>&nbsp;Start Demo</p>

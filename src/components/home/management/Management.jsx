@@ -25,8 +25,8 @@ const Management = () => {
     ];
 
     return (
-        <div className='grid grid-cols-2 w-[100%] ssm:flex ssm:flex-wrap ssm:justify-center ssm:items-center ssm:h-auto h-[70vh]'>
-            <div className='px-[20%] py-[15%] ssm:px-[12%] ssm:py-[7%]'>
+        <div className='grid grid-cols-2 w-[100%] ssm:flex ssm:flex-wrap ssm:justify-center ssm:items-center h-auto'>
+            <div className='px-[15%] py-[6%] ssm:px-[10%] ssm:py-[5%] flex justify-center items-center'>
                 <div>
                     <img src={managementImg} alt='Management img' className='w-[100%] h-[100%]'/>
                 </div>
@@ -37,7 +37,7 @@ const Management = () => {
                     <h2 className='text-[#242537] font-[700] text-[28px] ssm:text-[22px]'>
                         Our comprehensive range of services for corporate employees includes asset leasing.
                     </h2>
-                    <p className='text-[#242537] text-[16px] py-[12px] tracking-[1px] pr-[30%] ssm:pr-0'>
+                    <p className='text-[#242537] text-[14px] py-[12px] tracking-[1px] pr-[30%] ssm:pr-0'>
                         We provide you with a test account that can be set up in 
                         seconds. Our main focus is getting responses to you as 
                         soon as we can.
@@ -49,7 +49,7 @@ const Management = () => {
                                     <div className='flex ssm:w-full flex-row items-center my-[5px]'>
                                         {/* <div className='w-[20px] h-[20px] rounded-[50%] bg-[#0065A8]'></div> */}
                                         <img src={rightArrowIcon} alt="Right arrow icon" className='w-[30px] h-[30px] rounded-[50%] mr-[10px]'/>
-                                        <p className='text-[#242537] text-[16px] py-[12px] tracking-[1px] pr-[30%] ssm:pr-0'>
+                                        <p className='text-[#242537] text-[14px] py-[12px] tracking-[1px] px-[8px] ssm:pr-0'>
                                             {point.desc}
                                         </p>
                                     </div>

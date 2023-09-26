@@ -45,7 +45,7 @@ const EnterpriseApps = () => {
                                     </div>
                                     <div className='flex flex-col ml-[12px]'>
                                         <h3 className='text-[#0065A8] font-bold tracking-[1px] text-[22px]'>{item.title}</h3>
-                                        <p className='text-[16px] py-[8px]'>{item.content}</p>
+                                        <p className='text-[14px] py-[8px]'>{item.content}</p>
                                     </div>
                 </div>
               );

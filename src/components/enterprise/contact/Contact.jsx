@@ -48,7 +48,7 @@ const Contact = () => {
                                     <img src={option.icon} alt="icon"/>
                                 </a>
                                 
-                                <p className='text-[#242537] text-[16px] tracking-[1px] ml-[15px]'>
+                                <p className='text-[#242537] text-[14px] tracking-[1px] ml-[15px]'>
                                     {option.desc}
                                 </p>
                             </div>

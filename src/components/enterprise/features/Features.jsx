@@ -42,13 +42,13 @@ const Features = () => {
                 <div className='w-full h-full flex flex-col justify-center items-center p-[5%]'>
                     <div className='w-[80%]'>
                         <h2 className='text-[22px] font-bold my-[5px]'>Networking & Security</h2>
-                        <p className='my-[10px] text-[16px] text-justify'>
+                        <p className='my-[10px] text-[14px] text-justify'>
                             Your business needs the best-in-class devices that help boost productivity and provide value for money. 
                         </p>
                     </div>
                     <div className='w-[80%] h-[100px] flex'>
                         <div className='bg-[#242537] p-[8px]'>
-                            <p className='text-white font-bold text-[16px]'>
+                            <p className='text-white font-bold text-[14px]'>
                                 We secure what matters most to you 
                             </p>
                         </div>
@@ -71,7 +71,7 @@ const Features = () => {
                 <div className='w-full h-full text-white flex flex-col justify-center p-[25px] text-left'>
                     <h2 className='font-bold text-[22px] py-[6px] tracking-[1px] '>Post-Sales Support</h2>
                     <div className='border-l-2 border-[grey]'>
-                        <p className='text-[16px] py-[6px] text-justify px-[10px]'>
+                        <p className='text-[14px] py-[6px] text-justify px-[10px]'>
                         Your business needs the best-in-class devices that help boost productivity and provide value 
                         for money. We help you deploy the right computing solutions that streamline business processes, 
                         improve workflows, and enhance performance.
@@ -88,7 +88,7 @@ const Features = () => {
                     <h2 className='text-[#242537] font-bold text-[22px] py-[6px] tracking-[1px] '>Certification</h2>
                     <h2 className='text-[#242537] font-bold text-[22px] py-[6px]'>Best-in-class devices to help your teams.</h2>
                     <div className='border-l-2 border-[grey]'>
-                        <p className='text-black text-[16px] py-[6px] text-justify px-[10px]'>
+                        <p className='text-black text-[14px] py-[6px] text-justify px-[10px]'>
                             Your business needs the best-in-class devices that help boost productivity and provide 
                             value for money. We help you deploy the right computing solutions that 
                             streamline business processes, improve workflows, and enhance performance.
@@ -105,7 +105,7 @@ const Features = () => {
                 <div className='w-full h-full text-white flex flex-col justify-center p-[25px] text-left'>
                     <h2 className='font-bold text-[22px] py-[6px] tracking-[1px] '>Integration</h2>
                     <div className='border-l-2 border-[grey]'>
-                        <p className='text-[16px] py-[6px] text-justify px-[10px]'>
+                        <p className='text-[14px] py-[6px] text-justify px-[10px]'>
                         Your business needs the best-in-class devices that help boost productivity and provide value 
                         for money. We help you deploy the right computing solutions that streamline business processes, 
                         improve workflows, and enhance performance.

@@ -49,7 +49,7 @@ const Contact = () => {
                                         <img src={option.icon} alt="icon" className='w-full h-full'/>
                                     </a>
                                 </div>
-                                <p className='text-black text-[16px] tracking-[1px] ml-[15px] mr-[20%] ssm:mr-0'>
+                                <p className='text-black text-[14px] tracking-[1px] ml-[15px] mr-[20%] ssm:mr-0'>
                                     {option.desc}
                                 </p>
                             </div>

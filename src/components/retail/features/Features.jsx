@@ -13,10 +13,10 @@ const Features = () => {
             bgImg : '',
             content : (
                 <div className='w-full h-full ssm:p-[12px] flex flex-col justify-center p-[25px] text-left text-white'>
-                    <h2 className='font-bold text-[22px] py-[6px] tracking-[1px] ssm:text-[20px] '>Technology Consultation</h2>
-                    <p className='font-bold text-[22px] py-[6px] ssm:text-[20px]'>Best-in-class devices to help your teams do their best work</p>
+                    <h2 className='font-bold text-[20px] py-[6px] tracking-[1px] ssm:text-[20px] '>Technology Consultation</h2>
+                    <p className='font-bold text-[20px] py-[6px] ssm:text-[20px]'>Best-in-class devices to help your teams do their best work</p>
                     <div className='border-l-2 border-[grey]'>
-                        <p className=' text-[16px] py-[6px] text-justify px-[10px]'>
+                        <p className=' text-[14px] py-[6px] text-justify px-[10px]'>
                             Your business needs the best-in-class devices that help boost productivity and provide 
                             value for money. We help you deploy the right computing solutions that 
                             streamline business processes, improve workflows, and enhance performance.
@@ -42,14 +42,14 @@ const Features = () => {
             content : (
                 <div className='w-full h-full flex flex-col justify-center items-center p-[5%] text-white'>
                     <div className='w-[80%]'>
-                        <h2 className='text-[22px] font-bold my-[5px]'>Networking & Security</h2>
-                        <p className='my-[10px] text-[16px] text-justify'>
+                        <h2 className='text-[22px] font-bold my-[5px]'>Network & Security</h2>
+                        <p className='my-[10px] text-[14px] text-justify'>
                             Your business needs the best-in-class devices that help boost productivity and provide value for money. 
                         </p>
                     </div>
                     <div className='w-[80%] h-[100px] flex'>
                         <div className='bg-white p-[8px]'>
-                            <p className='text-[#242537] font-bold text-[16px]'>
+                            <p className='text-[#242537] font-bold text-[14px]'>
                                 We secure what matters most to you 
                             </p>
                         </div>
@@ -89,7 +89,7 @@ const Features = () => {
                     <h2 className='font-bold text-[22px] py-[6px] tracking-[1px] ssm:text-[20px]'>Certification</h2>
                     <p className='font-bold text-[22px] py-[6px] ssm:text-[20px]'>Best-in-class devices to help your teams.</p>
                     <div className='border-l-2 border-[grey]'>
-                        <p className='text-[16px] py-[6px] text-justify px-[10px]'>
+                        <p className='text-[14px] py-[6px] text-justify px-[10px]'>
                             Your business needs the best-in-class devices that help boost productivity and provide 
                             value for money. We help you deploy the right computing solutions that 
                             streamline business processes, improve workflows, and enhance performance.
@@ -106,7 +106,7 @@ const Features = () => {
                 <div className='w-full h-full text-black flex flex-col justify-center p-[25px] text-left'>
                     <h2 className='font-bold text-[22px] py-[6px] tracking-[1px] '>Integration</h2>
                     <div className='border-l-2 border-[grey]'>
-                        <p className='text-[16px] py-[6px] text-justify px-[10px]'>
+                        <p className='text-[14px] py-[6px] text-justify px-[10px]'>
                         Your business needs the best-in-class devices that help boost productivity and provide value 
                         for money. We help you deploy the right computing solutions that streamline business processes, 
                         improve workflows, and enhance performance.
@@ -119,7 +119,7 @@ const Features = () => {
     ];
     return (
         <div className='w-full h-auto bg-[#242537] overflow-auto'>
-            <div className='grid grid-cols-3 ssm:flex ssm:flex-wrap ssm:justify-center ssm:items-center'>
+            <div className='grid grid-cols-3 ssm:flex ssm:flex-wrap justify-center items-center'>
                 {
                     features.map((feature, index) => {
                         return(

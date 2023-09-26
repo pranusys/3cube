@@ -44,7 +44,7 @@ const Tools = () => {
                                     </div>
                                     <div className='flex flex-col ml-[12px]'>
                                         <h3 className='text-[#0065A8] font-bold tracking-[1px] text-[25px]'>{item.head}</h3>
-                                        <p className='text-[16px] py-[8px]'>{item.desc}</p>
+                                        <p className='text-[14px] py-[8px]'>{item.desc}</p>
                                     </div>
                                 </div>
                             );

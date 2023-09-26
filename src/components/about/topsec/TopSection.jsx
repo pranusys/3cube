@@ -15,16 +15,16 @@ const TopSection = () => {
                   <b className='text-black'>About Our</b> 
                   <b className='text-[#0065A8]'>&nbsp;Business</b>
                 </h2>
-                <p className='text-[16px] ssm:text-[14px] py-[12px] text-black'>
+                <p className='text-[14px] ssm:text-[14px] py-[12px] text-black'>
                     Nobody understands loans and financial needs better than us.
                     With 3cube Technologies, you can always have the emergency
                     financial support you need.
                 </p>
                 <div className='flex ssm:flex-wrap'>
-                    <button className='rounded-[18px] ssm:ml-[15px] w-[130px] text-[16px] mt-[7%] bg-[#0065A8] text-white p-[8px]'>
+                    <button className='rounded-[18px] ssm:ml-[15px] w-[130px] text-[14px] mt-[7%] bg-[#0065A8] text-white p-[8px]'>
                         <a href="/">Learn More</a>
                     </button>
-                    <button className='bg-transparent text-[16px] ml-[15px] mt-[7%] p-[8px] bg-black rounded-[18px] text-black flex'>
+                    <button className='bg-transparent text-[14px] ml-[15px] mt-[7%] p-[8px] bg-black rounded-[18px] text-black flex'>
                         <a href="/" className='flex'>
                             <img src={playBtn} alt="playBtn" className='w-[25px] h-[25px]'/>
                             <p >&nbsp;Start Demo</p>
