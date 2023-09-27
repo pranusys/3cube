@@ -22,7 +22,7 @@ const TopSection = () => {
                       <div className="inline-block ssm:none w-1/2 ssm:w-0 text-right text-[#242537]">EMPOWERING&nbsp;</div>
                       <div className="inline-block ssm:none w-1/2 ssm:w-0 text-left text-white ssm:text-[#242537]">&nbsp;BUSINESS</div>
                   </div>
-                  <div className="ssm:w-full text-center text-[35px] tracking-[3px] font-[900] ssm:flex-col py-[6px] ssm:justify-start ssm:items-center ssm:hidden">
+                  <div className="ssm:w-full text-center text-[28px] tracking-[3px] font-[900] ssm:flex-col py-[6px] ssm:justify-start ssm:items-center ssm:hidden">
                       <div className="inline-block ssm:none w-1/2 ssm:w-0 text-right text-[#242537]">Three Cube Technologies&nbsp;</div>
                       <div className="inline-block ssm:none w-1/2 ssm:w-0 text-left text-white ssm:text-[#242537]">&nbsp;Private Limited (TCTPL)</div>
                   </div>

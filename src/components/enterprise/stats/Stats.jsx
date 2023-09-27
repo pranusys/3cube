@@ -9,14 +9,14 @@ const Stats = () => {
             index : '01',
             name : 'Networking and security',
             desc : 'Enterprise Business',
-            link : '/',
+            link : '/enterprise-business',
             img : businessImgPic
         },
         {
             index : '02',
             name : 'Audio - Video',
             desc : 'Retail Business',
-            link : '/',
+            link : '/retail-business',
             img : businessImgPic
         },
 

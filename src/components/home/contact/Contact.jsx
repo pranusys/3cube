@@ -19,7 +19,7 @@ const Contact = () => {
         },
         {
             icon: locationIcon,
-            desc : 'Hayam Wuruk Street, Badung, Bali',
+            desc : "THREE CUBE TECHNOLOGIES PVT LTD,Ground Floor, Sivanandam Apartments,# 1 B&C,  East Park Road,Pulla Avenue, Shenoy Nagar,Chennai - 600023",
             link : '/'
         }
     ];
@@ -31,10 +31,10 @@ const Contact = () => {
                 transform: 'translate(-50%, -50%)',
             }} 
             className='absolute left-[50%] top-[70%] z-[-1]' alt="About pic" />
-        <div className='relative'>
-            <h1 className='absolute text-[120px] ml-[50px] ssm:text-[45px] tracking-[3px] font-bold mt-[15%] text-[#0065A833]'>CONTACT</h1>
+        <div className='relative w-full'>
+            <h1 className='absolute text-[120px] ml-[50px] ssm:text-[55px] ssm:mt-[18%] tracking-[3px] font-bold mt-[15%] text-[#0065A833] break-words'>CONTACT</h1>
             <div className='mt-[30%] mx-[50px]'>
-              <div className='font-bold text-[35px] ssm:text-[28px] tracking-[1px] mr-[25%] ssm:mr-0'>
+              <div className='font-bold text-[35px] ssm:text-[25px] tracking-[1px] ssm:mr-0'>
                   <h3>
                     Got any questions? Don't 
                     hesitate to get in touch.
@@ -47,13 +47,17 @@ const Contact = () => {
                             <div className='flex justify-start items-center my-[35px]'>
                                 <div className='h-[35px] w-[35px]'>
                                     <a href={option.link}>
-                                        <img src={option.icon} alt="Contact icon" className='w-full h-full'/>
+                                        <img src={option.icon} alt="Contact icon" 
+                                            className='w-full h-full'
+                                        />
                                     </a>
                                 </div>
+                                <div className='w-full h-auto'>
+                                    <p className='text-[#242537] text-[14px] tracking-[1px] ml-[10px]'>
+                                        {option.desc}
+                                    </p>
+                                </div>
                                 
-                                <p className='text-[#242537] text-[14px] tracking-[1px] p-2'>
-                                    {option.desc}
-                                </p>
                             </div>
                         )
                     })
@@ -61,9 +65,9 @@ const Contact = () => {
               </div>
             </div>
         </div>
-        <div className='w-full h-full px-[25%] ssm:px-[5%] py-[25%] ssm:py-[15%]'>
+        <div className='w-full h-full pl-[35%] ssm:px-[5%] py-[25%] ssm:py-[15%]'>
                 <div>
-                    <form>
+                    <form onSubmit={(e) => {e.preventDefault();}}>
                         <div className='flex'>
                             <input type="text" placeholder='First name' className='w-[100%] h-[50px] border-b-2 border-[#0065A8] p-[10px] my-[15px]'/>
                             <input type="text" placeholder='Last name' className='w-[100%] h-[50px] border-b-2 border-[#0065A8] p-[10px] my-[15px] ml-[15px]'/>

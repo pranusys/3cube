@@ -151,7 +151,7 @@ const Features = () => {
                         return(
                             <div>
                                 <div 
-                                    className='h-[300px] ssm:w-[350px]' 
+                                    className='h-[300px] ssm:w-[330px]' 
                                     style={{
                                         backgroundColor: feature.bgColor ?? '',
                                         backgroundImage: `url(${feature.bgImg})` ?? '',

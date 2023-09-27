@@ -13,10 +13,14 @@ const TopSection = () => {
             backgroundPosition : 'center'
 
         }}
-        className='w-full h-[100vh] relative'>
+        className='w-full h-[100vh]'>
             <Navbar />
             {/* <img src={bgImgPic} alt="bgImgPic" className='w-[50%] absolute bottom-0 right-0 top-0' /> */}
-            <div className='w-[40%] mt-[12%] ml-[2%] ssm:w-[95%] ssm:mt-[30vh] ssm:bg-[#00385d] ssm:rounded-[15px] ssm:p-[12px] ssm:mx-auto'>
+            <div
+                style={{
+                    transform:'translateY(-50%)'
+                }} 
+                className='w-[40%] relative ssm:top-[50%] top-[40%] ssm:w-[95%] ssm:bg-[#00385d] ssm:rounded-[15px] ssm:p-[12px] px-[2%] py-[8px] ssm:mx-auto'>
                 <h2 className='text-[45px] ssm:text-[28px] font-[900]'>
                   <b className='text-white'>Retail</b> 
                   <b className='text-[#0065A8]'>&nbsp;Business</b>

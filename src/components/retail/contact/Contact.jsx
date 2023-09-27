@@ -19,7 +19,11 @@ const Contact = () => {
         },
         {
             icon: locationIcon,
-            desc : 'Hayam Wuruk Street, Badung, Bali',
+            desc : `THREE CUBE TECHNOLOGIES PVT LTD,
+            Ground Floor, Sivanandam Apartments,
+            # 1 B&C,  East Park Road,
+            Pulla Avenue, Shenoy Nagar,
+            Chennai - 600023`,
             link : '/'
         }
     ];
@@ -39,18 +43,24 @@ const Contact = () => {
                     hesitate to get in touch.
                   </h3>
               </div>
-              <div className='contact-options mt-[30px] ssm:mt-0'>
+              <div className='contact-options mt-[30px]'>
                 {
                     contactOptions.map((option, index) => {
                         return (
                             <div className='flex justify-start items-center my-[35px]'>
-                                <a href='/'>
-                                    <img src={option.icon} alt="icon" className='w-[35px] h-[35px]'/>
-                                </a>
+                                <div className='h-[35px] w-[35px]'>
+                                    <a href={option.link}>
+                                        <img src={option.icon} alt="Contact icon" 
+                                            className='w-full h-full'
+                                        />
+                                    </a>
+                                </div>
+                                <div className='w-full h-auto '>
+                                    <p className='text-white text-[14px] tracking-[1px] ml-[10px]'>
+                                        {option.desc}
+                                    </p>
+                                </div>
                                 
-                                <p className='text-white text-[14px] ssm:text-[14px] tracking-[1px] ml-[15px]'>
-                                    {option.desc}
-                                </p>
                             </div>
                         )
                     })

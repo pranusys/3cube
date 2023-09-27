@@ -19,7 +19,7 @@ const Contact = () => {
         },
         {
             icon: locationIcon,
-            desc : 'Hayam Wuruk Street, Badung, Bali',
+            desc : `THREE CUBE TECHNOLOGIES PVT LTD, Ground Floor, Sivanandam Apartments, # 1 B&C, East Park Road, Pulla Avenue, Shenoy Nagar, Chennai - 600023`,
             link : '/'
         }
     ];
@@ -44,13 +44,19 @@ const Contact = () => {
                     contactOptions.map((option, index) => {
                         return (
                             <div className='flex justify-start items-center my-[35px]'>
-                                <a href={option.link}>
-                                    <img src={option.icon} alt="icon"/>
-                                </a>
+                                <div className='h-[35px] w-[35px]'>
+                                    <a href={option.link}>
+                                        <img src={option.icon} alt="Contact icon" 
+                                            className='w-full h-full'
+                                        />
+                                    </a>
+                                </div>
+                                <div className='w-full h-auto'>
+                                    <p className='text-[#242537] text-[14px] tracking-[1px] ml-[10px]'>
+                                        {option.desc}
+                                    </p>
+                                </div>
                                 
-                                <p className='text-[#242537] text-[14px] tracking-[1px] ml-[15px]'>
-                                    {option.desc}
-                                </p>
                             </div>
                         )
                     })

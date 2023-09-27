@@ -28,7 +28,7 @@ const RetailApps = () => {
   return (
     <div className='h-auto w-full relative overflow-auto bg-[#242537]'>
       <img src={retailAppBg} alt="enterprise background" className='w-[90%] ssm:w-full left-[-15%] absolute h-full'/>
-      <h1 className='text-white text-[35px] ssm:relative ssm:text-[28px] font-bold absolute top-[30%] ssm:top-[2%] p-[18px]'>Apple for Enterprise</h1>
+      {/* <h1 className='text-white text-[35px] ssm:relative ssm:text-[28px] font-bold absolute top-[30%] ssm:top-[2%] p-[18px]'>Apple for Enterprise</h1> */}
       <div className='grid grid-cols-2 ssm:flex ld:mt-[20%] ssm:flex-wrap w-auto float-right mt-[12%] ssm:w-full ssm:mt-[20%] ssm:p-[2%] ssm:justify-center ssm:items-center'>
           {
             features.map((item, index) => {
