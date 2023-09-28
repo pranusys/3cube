@@ -25,23 +25,23 @@ const Stats = () => {
     const leftStats = [
         {
             count : 1,
-            header : 'Compute',
-            desc : 'Your business needs the best-in-class devices that help boost productivity and provide value for money. We help you deploy the right'
+            header : 'Our purpose',
+            desc : 'users - from new startups to public companies'
         },
         {
             count : 2,
-            header : 'Networking and Security',
-            desc: 'Your business needs the best-in-class devices that help boost productivity and provide value for money. We help you deploy the right'
+            header : 'Anywhere, anytime work culture',
+            desc: 'users - from new startups to public companies'
         },
         {
             count : 3,
-            header : 'Audio - Video',
-            desc : 'Your business needs the best-in-class devices that help boost productivity and provide value for money. We help you deploy the right'
+            header : 'High Talent Retention cost',
+            desc : 'users - from new startups to public companies'
         },
         {
             count : 4,
-            header : 'Mobility',
-            desc : 'Your business needs the best-in-class devices that help boost productivity and provide value for money. We help you deploy the right'
+            header : 'Limited HR Expertise',
+            desc : 'users - from new startups to public companies'
         },
     ];
 
