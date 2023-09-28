@@ -9,13 +9,13 @@ const Contact = () => {
     const contactOptions = [
         {
             icon : phoneIcon,
-            desc : '+62 478-2240-190',
-            link: 'tel:+62 478-2240-190'
+            desc : '+91-7845468126',
+            link: 'tel:+91-7845468126'
         },
         {
             icon : emailIcon,
-            desc : 'adminsttor@hmail.com',
-            link : 'mailto:adminsttor@hmail.com'
+            desc : 'care@3cube.in',
+            link : 'mailto:care@3cube.in'
         },
         {
             icon: locationIcon,

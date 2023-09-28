@@ -1,28 +1,29 @@
 import React from 'react';
 import retailAppBg from '../../../assets//retail/retailAppBg.svg';
-import upIncreaseIcon from '../../../assets/icons/upincreaseicon.svg';
+// import upIncreaseIcon from '../../../assets/icons/upincreaseicon.svg';
 
 const RetailApps = () => {
   const features = [
     {
-      icon: upIncreaseIcon,
-      title: 'Smart dashboards',
-      content: 'Use Unify thoroughly thought automated libraries to your businesses.'
+      // icon: upIncreaseIcon,
+      // title: '20+',
+      title: '20+',
+      content: 'Happy customers'
     },
     {
-      icon: upIncreaseIcon,
-      title: 'Smart dashboards',
-      content: 'Use Unify thoroughly thought automated libraries to your businesses.'
+      // icon: upIncreaseIcon,
+      title: '15+',
+      content: 'Financial Solutions across industries'
     },
     {
-      icon: upIncreaseIcon,
-      title: 'Smart dashboards',
-      content: 'Use Unify thoroughly thought automated libraries to your businesses.'
+      // icon: upIncreaseIcon,
+      title: '8',
+      content: 'Industry Awards'
     },
     {
-      icon: upIncreaseIcon,
-      title: 'Smart dashboards',
-      content: 'Use Unify thoroughly thought automated libraries to your businesses.'
+      // icon: upIncreaseIcon,
+      title: '95%',
+      content: 'Client Retention Rate'
     }
   ];
   return (
@@ -38,12 +39,14 @@ const RetailApps = () => {
                       transform : 'translateY(-50%)'
                     }} 
                     className='bg-white border-l-2 border-r-2 relative top-1/2 mx-[12px] border-[#0065A8] p-[8px] justify-center items-center text-center flex flex-col rounded-[20px] h-[210px] ssm:h-auto ssm:w-3/4 w-[270px] my-[15px]'>
-                                    <div className='p-[12px]'>
+                                    {/* <div className='p-[12px]'>
                                         <img src={item.icon} alt="Tools icon" className='w-[35px] h-[35px]'/>
-                                    </div>
+                                    </div> */}
                                     <div className='flex flex-col ml-[12px]'>
-                                        <p className='text-[#0065A8] font-bold tracking-[1px] text-[22px]'>{item.title}</p>
-                                        <p className='text-[14px] py-[8px]'>{item.content}</p>
+                                        <div className='p-[12px]'>
+                                          <h2 className='text-[#0065A8] font-bold tracking-[1px] text-[35px]'>{item.title}</h2>
+                                        </div>
+                                        <p className='text-[18px] py-[8px]'>{item.content}</p>
                                     </div>
                 </div>
               );

@@ -10,7 +10,7 @@ const Footer = () => {
         { name: 'Privacy Policy', link: '/' },
     ];
   return (
-    <div className='w-full h-auto bg-[#242537] border-white border-t-2 px-[6%] py-[4%]'>
+    <div className='w-full h-auto bg-[#242537] border-white border-t-2 px-[4%] py-[4%]'>
         <div className='grid w-full h-full grid-cols-4 ssm:flex ssm:flex-wrap justify-between items-start'>
             {/* logo */}
             <div>
@@ -35,10 +35,10 @@ const Footer = () => {
                     Chennai - 600023
                 </p>
                 <p className='text-white text-[14px] px-[20px] py-[8px] tracking-[2px]'>
-                        +62 478-2240-190
+                        +91-7845468126
                 </p>
                 <p className='text-white text-[14px] px-[20px] py-[8px] tracking-[2px]'>
-                        contac@domain.com
+                        care@3cube.in
                 </p>
             </div>
             { /* Learn More */}

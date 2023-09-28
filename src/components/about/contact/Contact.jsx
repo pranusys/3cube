@@ -19,7 +19,8 @@ const Contact = () => {
         },
         {
             icon: locationIcon,
-            desc : `THREE CUBE TECHNOLOGIES `,
+            desc : `THREE CUBE TECHNOLOGIES PVT LTD, Ground Floor, Sivanandam Apartments, 
+            # 1 B&C, East Park Road, Pulla Avenue, Shenoy Nagar, Chennai - 600023`,
             link : '/'
         }
     ];
@@ -33,8 +34,8 @@ const Contact = () => {
         </div>
         <div>
             <div className='mt-[30%] mx-[50px]'>
-              <div className='relative mr-[25%] ssm:mr-0 tracking-[1px]'>
-                  <h2 className='absolute text-[38px] ssm:text-[32px] font-bold top-[-40%] text-[#b7d8f7c4]'>Request for Free Consultation</h2>
+              <div className='relative mr-[10%] ssm:mr-0 tracking-[1px]'>
+                  <h2 className='absolute text-[38px] ssm:text-[32px] font-bold top-[-25%] text-[#b7d8f7c4]'>Request for Free Consultation</h2>
                   <h3 className='font-bold text-[35px] ssm:text-[28px] relative z-[1] text-black'>
                     Help your Business to get on a New Stage!
                   </h3>
@@ -49,9 +50,12 @@ const Contact = () => {
                                         <img src={option.icon} alt="icon" className='w-full h-full'/>
                                     </a>
                                 </div>
-                                <p className='text-black text-[14px] tracking-[1px] ml-[15px] mr-[20%] ssm:mr-0'>
-                                    {option.desc}
-                                </p>
+                                <div className='w-full h-auto '>
+                                    <p className='text-[14px] tracking-[1px] ml-[10px]'>
+                                        {option.desc}
+                                    </p>
+                                </div>
+                                
                             </div>
                         )
                     })

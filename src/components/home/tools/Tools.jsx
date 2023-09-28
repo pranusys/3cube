@@ -8,19 +8,19 @@ const Tools = () => {
         {
             sno : 1,
             icon : upIncreaseIcon,
-            head : 'Advanced tools',
+            head : 'Our Solutions',
             desc: 'Use Unify thoroughly thought and automated libraries to your businesses.'
         },
         {
             sno: 2,
             icon : upIncreaseIcon,
-            head : 'Smart dashboards',
+            head : 'Asset Leasing',
             desc : 'Use Unify thoroughly thought and automated libraries to your businesses.'
         },
         {
             sno: 3,
             icon : upIncreaseIcon,
-            head : 'Powerful Features',
+            head : 'Early Pay',
             desc : 'Use Unify thoroughly thought and automated libraries to your businesses.'
         }
 

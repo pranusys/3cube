@@ -7,14 +7,14 @@ const Stats = () => {
     const links = [
         {
             index : '01',
-            name : 'Networking and security',
+            name : 'Enterprise',
             desc : 'Enterprise Business',
             link : '/enterprise-business',
             img : businessImgPic
         },
         {
             index : '02',
-            name : 'Audio - Video',
+            name : 'Retail',
             desc : 'Retail Business',
             link : '/retail-business',
             img : businessImgPic
@@ -76,10 +76,10 @@ const Stats = () => {
                         src={quotationPic} alt="Stats pic" 
                         className='w-[80px] h-[65px] absolute z-[-1] top-[-5%]'/>
                     <h2 className='text-[28px] tracking-[1px] font-bold text-black'>It's all about our <b className='text-[#0065A8]'>Offers</b></h2>
-                    <p className='py-[12px] text-[18px] text-black text-justify'>
-                        We provide you with a test account that can be set up in 
-                        seconds. Our main focus is getting responses to you as 
-                        soon as we can.
+                    <p className='py-[12px] text-[14px] text-black text-justify'>
+                        We offer customized financial solutions, focusing on client needs and 
+                        ensuring a smooth financial journey with flexible loan terms, 
+                        expedited approvals, and comprehensive guidance.
                     </p>
                     
                     <div className='links flex flex-col w-full mt-[18px]'>

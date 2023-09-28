@@ -8,10 +8,9 @@ const ProvidingService = () => {
                     <div className='w-[90px] h-[90px] z-[-1] top-[-5%] absolute rounded-[50%] bg-[#0065A8]'></div>
                     <h2 className='text-white text-[35px] ssm:text-[28px] tracking-[1px] font-bold'>Providing Service</h2>
                     <p className='text-[14px] py-[12px] text-white text-justify pr-[30%] ssm:pr-0'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid 
-                        architecto nihil quo dolorum, debitis iusto rerum ab quisquam accusamus 
-                        autem amet quae nesciunt fugiat? Modi 
-                        perferendis neque sunt quia cumque.
+                        With 35+ years of experience in multinational banks, offers a comprehensive range of 
+                        financial services, aiming to exceed client expectations and 
+                        remain a trusted partner in the ever-evolving financial landscape.
                     </p>
                     <div className='flex flex-wrap'>
                         <input type='email' placeholder='Enter your email' className='p-[8px] my-[20px] w-[50%] ssm:w-[100%] ssm:mr-0'/>

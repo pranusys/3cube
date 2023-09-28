@@ -1,7 +1,7 @@
 import React from 'react';
 import serviceAndSupportImg from '../../../assets/enterprise/serviceAndSupport.svg';
-import rightArrow from '../../../assets/enterprise/icons/rightArrow.svg';
-import leftArrow from '../../../assets/enterprise/icons/leftArrow.svg';
+// import rightArrow from '../../../assets/enterprise/icons/rightArrow.svg';
+// import leftArrow from '../../../assets/enterprise/icons/leftArrow.svg';
 
 
 
@@ -39,27 +39,15 @@ const Features = () => {
             bgColor : '',
             bgImg : '',
             content : (
-                <div className='w-full h-full flex flex-col justify-center items-center p-[5%]'>
-                    <div className='w-[80%]'>
-                        <h2 className='text-[22px] font-bold my-[5px]'>Networking & Security</h2>
-                        <p className='my-[10px] text-[14px] text-justify'>
-                            Your business needs the best-in-class devices that help boost productivity and provide value for money. 
+                <div className='w-full h-full flex flex-col justify-center p-[25px] text-left'>
+                    <h2 className='text-[#242537] font-bold text-[22px] py-[6px] tracking-[1px] '>Mutual Funds</h2>
+                    {/* <p className='text-[#242537] font-bold text-[22px] py-[6px]'>Best-in-class devices to help your teams do their best work</p> */}
+                    <div className='border-l-2 border-[grey]'>
+                        <p className='text-black text-[14px] py-[6px] text-justify px-[10px]'>
+                            Our financial experts offer tailored mutual fund recommendations and management 
+                            services to help clients diversify their portfolio, 
+                            save for retirement, and achieve financial goals.
                         </p>
-                    </div>
-                    <div className='w-[80%] h-[100px] flex'>
-                        <div className='bg-[#242537] p-[8px]'>
-                            <p className='text-white font-bold text-[14px]'>
-                                We secure what matters most to you 
-                            </p>
-                        </div>
-                        <div className='flex flex-col'>
-                            <button className='my-[8px] mx-[5px]'>
-                                <img src={rightArrow} alt="right arrow" className='w-[30px] h-[30px]'/>
-                            </button>
-                            <button className='my-[8px] mx-[5px]'>
-                                <img src={leftArrow} alt="left arrow" className='w-[30px] h-[30px]'/>
-                            </button>
-                        </div>
                     </div>
                 </div>
             )
@@ -68,13 +56,14 @@ const Features = () => {
             bgColor : '#242537',
             bgImg : '',
             content : (
-                <div className='w-full h-full text-white flex flex-col justify-center p-[25px] text-left'>
-                    <h2 className='font-bold text-[22px] py-[6px] tracking-[1px] '>Post-Sales Support</h2>
+                <div className='w-full h-full flex flex-col text-white justify-center p-[25px] text-left'>
+                    <h2 className='font-bold text-[22px] py-[6px] tracking-[1px] '>Insurance</h2>
+                    {/* <h2 className='text-[#242537] font-bold text-[22px] py-[6px]'>Best-in-class devices to help your teams.</h2> */}
                     <div className='border-l-2 border-[grey]'>
-                        <p className='text-[14px] py-[6px] text-justify px-[10px]'>
-                        Your business needs the best-in-class devices that help boost productivity and provide value 
-                        for money. We help you deploy the right computing solutions that streamline business processes, 
-                        improve workflows, and enhance performance.
+                        <p className=' text-[14px] py-[6px] text-justify px-[10px]'>
+                            Our team of experts offers comprehensive insurance solutions, including life, 
+                            health, and property coverage, to 
+                            protect your assets, health, and loved ones, ensuring a secure financial future.
                         </p>
                     </div>
                 </div>
@@ -84,14 +73,12 @@ const Features = () => {
             bgColor : '',
             bgImg: '',
             content : (
-                <div className='w-full h-full flex flex-col justify-center p-[25px] text-left'>
-                    <h2 className='text-[#242537] font-bold text-[22px] py-[6px] tracking-[1px] '>Certification</h2>
-                    <h2 className='text-[#242537] font-bold text-[22px] py-[6px]'>Best-in-class devices to help your teams.</h2>
+                <div className='w-full h-full text-black flex flex-col justify-center p-[25px] text-left'>
+                    <h2 className='font-bold text-[22px] py-[6px] tracking-[1px] '>Loans</h2>
                     <div className='border-l-2 border-[grey]'>
-                        <p className='text-black text-[14px] py-[6px] text-justify px-[10px]'>
-                            Your business needs the best-in-class devices that help boost productivity and provide 
-                            value for money. We help you deploy the right computing solutions that 
-                            streamline business processes, improve workflows, and enhance performance.
+                        <p className='text-[14px] py-[6px] text-justify px-[10px]'>
+                            We provide customized loan solutions for personal, home, and business financing, ensuring 
+                            competitive terms and responsible borrowing, backed by our experienced team.
                         </p>
                     </div>
                 </div>
@@ -103,12 +90,12 @@ const Features = () => {
             content : (
                 
                 <div className='w-full h-full text-white flex flex-col justify-center p-[25px] text-left'>
-                    <h2 className='font-bold text-[22px] py-[6px] tracking-[1px] '>Integration</h2>
+                    <h2 className='font-bold text-[22px] py-[6px] tracking-[1px] '>Mobility</h2>
                     <div className='border-l-2 border-[grey]'>
                         <p className='text-[14px] py-[6px] text-justify px-[10px]'>
-                        Your business needs the best-in-class devices that help boost productivity and provide value 
-                        for money. We help you deploy the right computing solutions that streamline business processes, 
-                        improve workflows, and enhance performance.
+                            3Cube Technologies utilizes advanced technology to provide innovative 
+                            mobility solutions, enhancing convenience, productivity, and connectivity for individuals and 
+                            businesses, ensuring seamless access to information and services.
                         </p>
                     </div>
                 </div>
