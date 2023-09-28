@@ -50,7 +50,7 @@ const AboutCompany = () => {
                                     <div className='flex ssm:w-full flex-row items-center my-[5px]'>
                                         {/* <div className='w-[20px] h-[20px] rounded-[50%] bg-[#0065A8]'></div> */}
                                         <img src={rightArrowIcon} alt="Right arrow icon" className='w-[30px] h-[30px] rounded-[50%] mr-[10px]'/>
-                                        <p className='text-[14px] ssm:text-[14px] py-[12px] tracking-[1px] pr-[30%] ssm:mr-0'>
+                                        <p className='text-[14px] ssm:text-[14px] py-[12px] tracking-[1px] pr-[30%] ssm:pr-0 ssm:mr-0'>
                                             {point.desc}
                                         </p>
                                     </div>

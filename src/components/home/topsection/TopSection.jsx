@@ -57,6 +57,7 @@ const TopSection = () => {
                           <div className='flex'>
                               <h3 className='mx-[20px]'>Asset Leasing</h3>
                               <h3 className='mx-[20px]'>Early Pay</h3>
+                              <h3 className='mx-20px'>          </h3>
                           </div>
                       </div>
                   </div>

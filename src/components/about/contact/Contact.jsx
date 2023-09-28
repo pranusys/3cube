@@ -35,8 +35,8 @@ const Contact = () => {
         <div>
             <div className='mt-[30%] mx-[50px]'>
               <div className='relative mr-[10%] ssm:mr-0 tracking-[1px]'>
-                  <h2 className='absolute text-[38px] ssm:text-[32px] font-bold top-[-25%] text-[#b7d8f7c4]'>Request for Free Consultation</h2>
-                  <h3 className='font-bold text-[35px] ssm:text-[28px] relative z-[1] text-black'>
+                  <h2 className='absolute text-[38px] ssm:text-[25px] font-bold top-[-25%] ssm:top-[-75%] text-[#b7d8f7c4]'>Request for Free Consultation</h2>
+                  <h3 className='font-bold text-[35px] ssm:text-[25px] relative z-[1] text-black'>
                     Help your Business to get on a New Stage!
                   </h3>
               </div>
