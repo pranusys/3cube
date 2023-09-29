@@ -21,7 +21,7 @@ const Tools = () => {
         },
         {
             count : 4,
-            header : '150+',
+            header : '10+',
             desc : 'Corporates'
         },
     ];

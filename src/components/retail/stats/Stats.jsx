@@ -7,14 +7,14 @@ const Stats = () => {
     const links = [
         {
             index : '01',
-            name : 'Networking and security',
+            name : 'Enterprise Business',
             desc : 'Enterprise Business',
             link : '/enterprise-business',
             img : businessImgPic
         },
         {
             index : '02',
-            name : 'Audio - Video',
+            name : 'Retail Business',
             desc : 'Retail Business',
             link : '/retail-business',
             img : businessImgPic
@@ -49,7 +49,7 @@ const Stats = () => {
     return (
         <div className='w-full h-auto p-[2%] grid grid-cols-2 ssm:flex ssm:flex-wrap bg-[#242537] text-white'>
             {/* left */}
-            <div className='p-[2%] flex ssm:flex-wrap justify-center items-center text-justify'>
+            <div className='p-[2%] flex ssm:flex-wrap justify-center items-center'>
                         <div className='grid grid-cols-2 ssm:flex ssm:flex-wrap w-full mx-[8%] p-[12px]'>
                             {
                                 leftStats.map((stat) => {

@@ -1,28 +1,8 @@
 import React from 'react';
 import managementImg from '../../../assets/home/managementImg.svg';
-import rightArrowIcon from '../../../assets/icons/rightArrow.svg';
 
 const Management = () => {
-    const points = [
-        {
-            desc: 'Aenean quam ornare. Curabitur blandit.'
-        },
-        {
-            desc: 'Aenean quam ornare. Curabitur blandit.'
-        },
-        {
-            desc: 'Aenean quam ornare. Curabitur blandit.'
-        },
-        {
-            desc: 'Aenean quam ornare. Curabitur blandit.'
-        },
-        {
-            desc: 'Aenean quam ornare. Curabitur blandit.'
-        },
-        {
-            desc: 'Aenean quam ornare. Curabitur blandit.'
-        }
-    ];
+    
 
     return (
         <div className='grid grid-cols-2 w-[100%] ssm:flex ssm:flex-wrap ssm:justify-center ssm:items-center h-auto'>
@@ -37,26 +17,12 @@ const Management = () => {
                     <h2 className='text-[#242537] font-[700] text-[28px] ssm:text-[22px]'>
                         Our comprehensive range of services for corporate employees includes asset leasing.
                     </h2>
-                    <p className='text-[#242537] text-[14px] py-[12px] tracking-[1px] pr-[30%] ssm:pr-0'>
+                    <p className='text-[#242537] text-[20px] ssm:text-[18px] py-[25px] tracking-[1px] ssm:pr-0'>
                         We provide you with a test account that can be set up in 
                         seconds. Our main focus is getting responses to you as 
                         soon as we can.
                     </p>
-                    <div className='grid grid-cols-2 ssm:flex ssm:flex-wrap justify-center items-center w-full'>
-                        {
-                            points.map((point, index) => {
-                                return (
-                                    <div className='flex ssm:w-full flex-row items-center my-[5px]'>
-                                        {/* <div className='w-[20px] h-[20px] rounded-[50%] bg-[#0065A8]'></div> */}
-                                        <img src={rightArrowIcon} alt="Right arrow icon" className='w-[30px] h-[30px] rounded-[50%] mr-[10px]'/>
-                                        <p className='text-[#242537] text-[14px] py-[12px] tracking-[1px] px-[8px] ssm:pr-0'>
-                                            {point.desc}
-                                        </p>
-                                    </div>
-                                )
-                            })
-                        }
-                    </div>
+                    
                 </div>
                 
             </div>

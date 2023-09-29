@@ -9,17 +9,18 @@ const Contact = () => {
     const contactOptions = [
         {
             icon : phoneIcon,
-            desc : '+62 478-2240-190',
-            link: 'tel:+62 478-2240-190'
+            desc : '+91 7845468126',
+            link: 'tel:+91-7845468126'
         },
         {
             icon : emailIcon,
-            desc : 'adminsttor@hmail.com',
-            link : 'mailto:adminsttor@hmail.com'
+            desc : 'care@3cube.in',
+            link : 'mailto:care@3cube.in'
         },
         {
             icon: locationIcon,
-            desc : "THREE CUBE TECHNOLOGIES PVT LTD,Ground Floor, Sivanandam Apartments,# 1 B&C,  East Park Road,Pulla Avenue, Shenoy Nagar,Chennai - 600023",
+            desc : `THREE CUBE TECHNOLOGIES PVT LTD, Ground Floor, Sivanandam Apartments, 
+            # 1 B&C, East Park Road, Pulla Avenue, Shenoy Nagar, Chennai - 600023`,
             link : '/'
         }
     ];
@@ -65,7 +66,7 @@ const Contact = () => {
               </div>
             </div>
         </div>
-        <div className='w-full h-full pl-[35%] ssm:px-[5%] py-[25%] ssm:py-[15%]'>
+        <div className='w-full h-full pl-[30%] pr-[15%] ssm:px-[5%] py-[25%] ssm:py-[15%]'>
                 <div>
                     <form onSubmit={(e) => {e.preventDefault();}}>
                         <div className='flex'>

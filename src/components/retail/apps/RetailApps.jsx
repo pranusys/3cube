@@ -1,5 +1,5 @@
 import React from 'react';
-import retailAppBg from '../../../assets//retail/retailAppBg.svg';
+import retailAppBg from '../../../assets/retail/retailAppBg.svg';
 // import upIncreaseIcon from '../../../assets/icons/upincreaseicon.svg';
 
 const RetailApps = () => {
