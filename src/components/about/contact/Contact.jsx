@@ -3,6 +3,7 @@ import phoneIcon from '../../../assets/icons/phone.svg';
 import emailIcon from '../../../assets/icons/email.svg';
 import locationIcon from '../../../assets/icons/location.svg';
 import contactPic from '../../../assets//about/contactPic.png';
+import '../../../styles/about/contact/contact.css';
 
 const Contact = () => {
 
@@ -26,17 +27,17 @@ const Contact = () => {
     ];
 
   return (
-    <div className='w-full h-auto p-[1%] grid grid-cols-2 ssm:flex ssm:flex-wrap relative overflow-auto'>
-        <div className='w-full h-full p-[15%] ssm:p-[2%]'>
+    <div className='contact-container'>
+        <div className='contact-container--inner1'>
               <div>
                 <img src={contactPic} alt="contact pic" />
               </div>
         </div>
-        <div>
-            <div className='mt-[30%] mx-[50px]'>
-              <div className='relative mr-[10%] ssm:mr-0 tracking-[1px]'>
-                  <h2 className='absolute text-[38px] ssm:text-[25px] font-bold top-[-25%] ssm:top-[-75%] text-[#b7d8f7c4]'>Request for Free Consultation</h2>
-                  <h3 className='font-bold text-[35px] ssm:text-[25px] relative z-[1] text-black'>
+        <div className='contact-container--inner2'>
+            <div className='contact-container--inner2-cnt'>
+              <div className='contact-container--inner2-cnt-inner'>
+                  <h2 className='contact-container--inner2-cnt-inner--header'>Request for Free Consultation</h2>
+                  <h3 className='contact-container--inner2-cnt-inner--header2'>
                     Help your Business to get on a New Stage!
                   </h3>
               </div>
