@@ -26,8 +26,7 @@ const TopSection = () => {
                   <b className='text-[#0065A8]'>&nbsp;Business</b>
                 </h2>
                 <p className='text-[14px] py-[12px] text-white ssm:text-[14px]'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
+Our retail business prioritizes quality, customer satisfaction, and exceptional value, delivering seamless financial experiences and ensuring clients' financial needs are met with precision and care.                    
                 </p>
                 <div className='flex ssm:flex-wrap'>
                     <button className='rounded-[18px] ssm:ml-[15px] w-[130px] text-[14px] mt-[7%] bg-[#0065A8] text-white p-[8px]'>
