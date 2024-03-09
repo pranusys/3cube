@@ -1,0 +1,34 @@
+/*
+'ssm':{'min':'320px','max':'768px'},
+      'md':'769px',
+      'ld':{'max':'1024px'},
+      'lsm':{'min':'320px','max':'425px'},   
+*/
+.emailField 
+{
+    padding: 8px;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.providing-service-btn
+{
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #0065A8;
+
+}
+
+@media (min-width: 320px) and (max-width:768px) {
+    .emailField{
+        width: 100%;
+        margin-right: 0;
+    }
+    .providing-service-btn
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+}
