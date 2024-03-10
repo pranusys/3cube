@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from '../../assets/cube3logoicon.svg';
+import '../../styles/navbar/navbar.css';
+
 
 const Navbar = () => {
 
@@ -21,32 +23,38 @@ const Navbar = () => {
   return (
     <div className={
         windowLocation === '/about' 
-        ? 'w-[70%] overflow-auto'
-         : 'overflow-auto'
+        ? 'navbar-eq--about'
+         : 'navbar-noteq--about'
         }>
         <div 
                 style ={customStyle}
                 className={
                     windowLocation === '/about'
-                    ? 'w-[50px] h-[50px] absolute top-[3%] right-[65%] ssm:top-[5%] ssm:right-[50%]'
-                    : 'w-[50px] h-[50px] absolute top-[5%] right-[50%]'
+                    ? 'navbar--aboutLinkEq--inner'
+                    : 'navbar--aboutLinkNotEq--inner'
 
                 }>
                 <a href="/">
-                    <img src={logo} alt='Logo' className='w-full h-full'/>
+                    <img 
+                        // style={customStyle}
+                        src={logo} alt='Logo' 
+                        // style = {{width: '100%', height: '100%'}}
+                        />
                 </a>
         </div>
-    <div className='px-[2%] py-[3%] ssm:hidden'>
-        <div className='flex justify-between items-center'>
+    <div className='navbar-container--inner2'>
+        <div className='navbar-container--inner2--inner'>
             <div>
-                <ul className='list-none flex'>
+                <ul 
+                    style= {{display: 'flex', listStyle: 'none'}}
+                    >
                     {
                         leftOpt.map((item, index) => {
                             return (
                                 <a href={item.link} className={
                                     windowLocation === '/retail-business'
-                                    ? 'text-white mx-[15px] font-bold'
-                                    : 'mx-[15px] font-bold'
+                                    ? 'retailLink-eqInAbt'
+                                    : 'retailLink-NoteqInAbt'
                                     }>
                                     <li key={index}>{item.name}</li>
                                 </a>
@@ -57,15 +65,17 @@ const Navbar = () => {
             </div>
             
             <div>
-            <ul className='list-none flex'>
+            <ul 
+                style = {{display: 'flex',listStyle: 'none'}}
+                >
                     {
                         rightOpt.map((item, index) => {
                             return (
                                 <a href={item.link} className={
                                     windowLocation === '/retail-business'
-                                    ? 'text-black mx-[15px] font-bold'
-                                    : windowLocation === '/about' ? 'text-black mx-[15px] font-bold'
-                                    : 'mx-[15px] font-bold text-white'
+                                    ? 'retailLink-eqInAbtForMobScreen'
+                                    : windowLocation === '/about' ? 'abtLink-eqInAbtForMobScreen'
+                                    : 'abtLink-NoteqInAbtForMobScreen'
                                 }>
                                     <li key={index}>{item.name}</li>
                                 </a>
@@ -76,7 +86,7 @@ const Navbar = () => {
             </div>
         </div>
     </div>
-        <div className='md:invisible'>
+        <div className='checkbox-wrapper--hidden'>
             <input type="checkbox" id="active" />
             <label for="active" className="menu-btn"><span></span></label>
             <label for="active" className="close"></label>
