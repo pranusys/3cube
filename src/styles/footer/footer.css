@@ -1,0 +1,9 @@
+.footer-container
+{
+    width: 100%;
+    height: auto;
+    background: #242537;
+    border: 2px solid white;
+    padding-right: 4% ;
+    padding: 4%;
+}

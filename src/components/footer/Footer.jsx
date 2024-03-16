@@ -1,5 +1,6 @@
 import React from 'react'
-import logo from '../../assets/cube3logo.svg'
+import logo from '../../assets/cube3logo.svg';
+import '../../styles/footer/footer.css';
 
 const Footer = () => {
     const learnMoreLinks = [
@@ -10,7 +11,7 @@ const Footer = () => {
         { name: 'Privacy Policy', link: '/' },
     ];
   return (
-    <div className='w-full h-auto bg-[#242537] border-white border-t-2 px-[4%] py-[4%]'>
+    <div className='footer-container w-full h-auto bg-[#242537] border-white border-t-2 px-[4%] py-[4%]'>
         <div className='grid w-full h-full grid-cols-4 ssm:flex ssm:flex-wrap justify-between items-start'>
             {/* logo */}
             <div>
