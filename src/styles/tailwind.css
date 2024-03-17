@@ -1,4 +1,8 @@
 .tailwind {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
   .ml-\[15px\] {
     margin-left: 15px;
   }
@@ -1931,6 +1935,117 @@
 
     .ssm\:text-\[28px\] {
       font-size: 28px;
+    }
+    .bg-img {
+      width: 20rem;
+    }
+  }
+  .absolute {
+    position: absolute;
+  }
+
+  .right-\[50\%\] {
+    right: 50%;
+  }
+
+  .right-\[65\%\] {
+    right: 65%;
+  }
+
+  .top-\[3\%\] {
+    top: 3%;
+  }
+
+  .top-\[5\%\] {
+    top: 5%;
+  }
+
+  .mx-\[15px\] {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .h-\[50px\] {
+    height: 50px;
+  }
+
+  .h-full {
+    height: 100%;
+  }
+
+  .w-\[50px\] {
+    width: 50px;
+  }
+
+  .w-\[70\%\] {
+    width: 70%;
+  }
+
+  .w-full {
+    width: 100%;
+  }
+
+  .list-none {
+    list-style-type: none;
+  }
+
+  .items-center {
+    align-items: center;
+  }
+
+  .justify-between {
+    justify-content: space-between;
+  }
+
+  .overflow-auto {
+    overflow: auto;
+  }
+
+  .px-\[2\%\] {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .py-\[3\%\] {
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .font-bold {
+    font-weight: 700;
+  }
+
+  .text-black {
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+  }
+
+  .text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    .ssm\:right-\[50\%\] {
+      right: 50%;
+    }
+
+    .ssm\:top-\[5\%\] {
+      top: 5%;
+    }
+
+    .ssm\:hidden {
+      display: none;
+    }
+  }
+
+  @media (min-width: 769px) {
+    .md\:invisible {
+      visibility: hidden;
     }
   }
 }
