@@ -1,0 +1,52 @@
+.my-\[35px\] {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.ml-\[10px\] {
+  margin-left: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-\[35px\] {
+  height: 35px;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-\[35px\] {
+  width: 35px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
+}
+
+.tracking-\[1px\] {
+  letter-spacing: 1px;
+}
