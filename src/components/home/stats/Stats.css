@@ -1,0 +1,218 @@
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.top-\[20\%\] {
+  top: 20%;
+}
+
+.z-\[-1\] {
+  z-index: -1;
+}
+
+.mx-\[12\%\] {
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.mx-\[8px\] {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.my-\[12\%\] {
+  margin-top: 12%;
+  margin-bottom: 12%;
+}
+
+.my-\[8px\] {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.mr-\[10px\] {
+  margin-right: 10px;
+}
+
+.mr-\[25\%\] {
+  margin-right: 25%;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.h-\[35px\] {
+  height: 35px;
+}
+
+.h-\[45px\] {
+  height: 45px;
+}
+
+.h-\[55px\] {
+  height: 55px;
+}
+
+.h-\[65px\] {
+  height: 65px;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.w-\[290px\] {
+  width: 290px;
+}
+
+.w-\[35px\] {
+  width: 35px;
+}
+
+.w-\[45px\] {
+  width: 45px;
+}
+
+.w-\[80px\] {
+  width: 80px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.border-t-2 {
+  border-top-width: 2px;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.p-\[12px\] {
+  padding: 12px;
+}
+
+.p-\[15px\] {
+  padding: 15px;
+}
+
+.p-\[2\%\] {
+  padding: 2%;
+}
+
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.py-\[12px\] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.py-\[35px\] {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
+}
+
+.text-\[35px\] {
+  font-size: 35px;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.tracking-\[1px\] {
+  letter-spacing: 1px;
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .ssm\:mr-\[15\%\] {
+    margin-right: 15%;
+  }
+
+  .ssm\:flex {
+    display: flex;
+  }
+
+  .ssm\:h-auto {
+    height: auto;
+  }
+
+  .ssm\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .ssm\:justify-center {
+    justify-content: center;
+  }
+
+  .ssm\:text-\[14px\] {
+    font-size: 14px;
+  }
+
+  .ssm\:text-\[18px\] {
+    font-size: 18px;
+  }
+
+  .ssm\:text-\[28px\] {
+    font-size: 28px;
+  }
+}
