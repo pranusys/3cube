@@ -3,7 +3,6 @@ import React from "react";
 import Navbar from "../../navbar/Navbar";
 import playBtn from "../../../assets/enterprise/icons/playBtn.svg";
 import bgImgPic from "../../../assets/about/bgImgPic.svg";
-// import "../../../styles/about/topsection/topsection.css";
 
 const TopSection = () => {
   return (

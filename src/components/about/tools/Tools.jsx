@@ -1,6 +1,5 @@
 import React from "react";
 import pointsImg from "../../../assets/about/points.svg";
-import "../../../styles/about/tools/tools.css";
 
 const Tools = () => {
   const rightStats = [

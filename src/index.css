@@ -1,19 +1,20 @@
-/* Monteserrat font*/
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* font-family: sans-serif;
-   */
+}
+.tailwind {
   font-family: "Open Sans", sans-serif;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
-*,
-::before,
-::after {
+.tailwind::before,
+.tailwind::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -63,7 +64,7 @@
   --tw-backdrop-sepia: ;
 }
 
-::backdrop {
+.tailwind::backdrop {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -111,9 +112,4 @@
   --tw-backdrop-opacity: ;
   --tw-backdrop-saturate: ;
   --tw-backdrop-sepia: ;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
 }
